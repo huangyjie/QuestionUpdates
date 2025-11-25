@@ -1,7 +1,7 @@
 {
-    "versionCode": 1,
-    "versionName": "1.0.1",
-    "changelog": "初始版本发布。",
+    "versionCode": 2,
+    "versionName": "1.1.0",
+    "changelog": "1. 修复检测更新实时下载功能\n2. 优化自动下载体验",
   "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/app-release.apk",
     "forceUpdate": false
   }
