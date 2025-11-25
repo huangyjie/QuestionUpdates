@@ -121,7 +121,7 @@ def main() -> None:
             print("⚠️ 推送到 gitee 失败，请检查凭证或网络。")
             return
 
-    print("✅ 已自动提交并推送 QuestionUpdates 到 GitHub 与 Gitee。")
+    print("[OK] 已自动提交并推送 QuestionUpdates 到 GitHub 与 Gitee。")
 
 
 if __name__ == "__main__":
