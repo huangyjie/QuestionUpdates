@@ -108,8 +108,7 @@ def main() -> None:
     print(f"推送到远程 origin/{branch} ...")
     push_result = run(["git", "-C", str(repo_root), "push", "origin", branch])
     if push_result.returncode != 0:
-        print("⚠️ 推送到 origin 失败，请检查上面的错误信息。")
-        return
+        print("⚠️ 推送到 origin 失败，已跳过 GitHub 推送。")
 
     # 推送到 gitee
     if ensure_gitee_remote(repo_root):
