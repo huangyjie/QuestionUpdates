@@ -1,7 +1,7 @@
 {
-    "versionCode": 2,
-    "versionName": "1.0.1",
-    "changelog": "2",
-    "downloadUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/updates/question-v1.0.1-20251125-233219.apk",
-    "forceUpdate": false
+    "versionCode": 1,
+    "versionName": "1.0.0",
+    "changelog": "无",
+    "downloadUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/updates/question-v1.0.0-20251125-233255.apk?download=1",
+    "forceUpdate": true
 }
