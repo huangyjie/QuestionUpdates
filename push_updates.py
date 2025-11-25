@@ -71,20 +71,21 @@ def main() -> None:
         ["git", "-C", str(repo_root), "diff", "--cached", "--quiet"],
         check=False,
     )
-    if diff_result.returncode == 0:
-        print("没有需要提交的改动，已退出。")
-        return
+    has_new_commit = diff_result.returncode != 0
 
-    # 自动生成提交信息，包含时间戳
-    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    commit_msg = f"更新 Question APK 与版本配置 ({ts})"
-    print(f"创建提交：{commit_msg}")
-    commit_result = run(
-        ["git", "-C", str(repo_root), "commit", "-m", commit_msg]
-    )
-    if commit_result.returncode != 0:
-        print("git commit 失败，请检查上面的错误信息。")
-        return
+    if has_new_commit:
+        # 自动生成提交信息，包含时间戳
+        ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        commit_msg = f"更新 Question APK 与版本配置 ({ts})"
+        print(f"创建提交：{commit_msg}")
+        commit_result = run(
+            ["git", "-C", str(repo_root), "commit", "-m", commit_msg]
+        )
+        if commit_result.returncode != 0:
+            print("git commit 失败，请检查上面的错误信息。")
+            return
+    else:
+        print("没有新的改动可提交，将仅执行推送。")
 
     # 获取当前分支名
     print("检测当前分支名...")
