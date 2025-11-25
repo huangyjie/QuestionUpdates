@@ -1,12 +1,50 @@
 import subprocess
 from datetime import datetime
 from pathlib import Path
+from typing import Optional
+
+GITEE_REMOTE_NAME = "gitee"
+GITEE_REMOTE_URL = "https://gitee.com/langzhikeji/QuestionUpdates.git"
 
 
-def run(cmd: list[str]) -> subprocess.CompletedProcess:
+def run(cmd: list[str], capture: bool = False) -> subprocess.CompletedProcess:
     """Run a git command and print it for visibility."""
     print(f"$ {' '.join(cmd)}")
-    return subprocess.run(cmd, check=False, text=True)
+    return subprocess.run(
+        cmd,
+        check=False,
+        text=True,
+        capture_output=capture,
+        encoding="utf-8" if capture else None,
+    )
+
+
+def ensure_gitee_remote(repo_root: Path) -> bool:
+    """Ensure the gitee remote exists; add it if missing."""
+    remotes_proc = run(
+        ["git", "-C", str(repo_root), "remote"],
+        capture=True,
+    )
+    if remotes_proc.returncode != 0:
+        print("无法获取远程列表，稍后推送可能失败。")
+        return False
+    remotes = remotes_proc.stdout.split()
+    if GITEE_REMOTE_NAME in remotes:
+        return True
+
+    print(f"未检测到 {GITEE_REMOTE_NAME} 远程，正在添加...")
+    add_proc = run(
+        [
+            "git",
+            "-C",
+            str(repo_root),
+            "remote",
+            "add",
+            GITEE_REMOTE_NAME,
+            GITEE_REMOTE_URL,
+        ]
+    )
+    return add_proc.returncode == 0
 
 
 def main() -> None:
@@ -66,13 +104,24 @@ def main() -> None:
         return
 
     # 推送到远程 origin
+    # 推送到 origin
     print(f"推送到远程 origin/{branch} ...")
     push_result = run(["git", "-C", str(repo_root), "push", "origin", branch])
     if push_result.returncode != 0:
-        print("git push 失败，请检查上面的错误信息（可能是未登录、无权限或网络问题）。")
+        print("⚠️ 推送到 origin 失败，请检查上面的错误信息。")
         return
 
-    print("✅ 已自动提交并推送 QuestionUpdates 仓库。")
+    # 推送到 gitee
+    if ensure_gitee_remote(repo_root):
+        print(f"推送到远程 {GITEE_REMOTE_NAME}/{branch} ...")
+        push_gitee = run(
+            ["git", "-C", str(repo_root), "push", GITEE_REMOTE_NAME, branch]
+        )
+        if push_gitee.returncode != 0:
+            print("⚠️ 推送到 gitee 失败，请检查凭证或网络。")
+            return
+
+    print("✅ 已自动提交并推送 QuestionUpdates 到 GitHub 与 Gitee。")
 
 
 if __name__ == "__main__":
