@@ -2,6 +2,6 @@
     "versionCode": 1,
     "versionName": "1.0.0",
     "changelog": "初始版本发布。",
-    "downloadUrl": "https://github.com/huangyjie/Question/releases/latest/download/app-release.apk",
+  "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/app-release.apk",
     "forceUpdate": false
   }
