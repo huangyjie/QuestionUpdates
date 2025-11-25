@@ -1,5 +1,5 @@
 {
-    "versionCode": 2,
+    "versionCode": 3,
     "versionName": "2.0.0",
     "changelog": "1. 修复检测更新实时下载功能\n2. 优化自动下载体验",
   "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/app-release.apk",
