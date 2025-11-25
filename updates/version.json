@@ -1,7 +1,7 @@
 {
-    "versionCode": 1,
-    "versionName": "1.0.0",
-    "changelog": "无更新",
-  "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/app-release.apk",
-    "forceUpdate": false
+    "versionCode": 2,
+    "versionName": "1.0.1",
+    "changelog": "修复若干问题并优化体验",
+    "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v1.0.1-20251125-171335.apk",
+    "forceUpdate": true
 }
