@@ -103,15 +103,22 @@ def main() -> None:
         print("当前分支名为空，请检查 Git 配置。")
         return
 
-    # 推送到远程 origin
-    # 推送到 origin
-    print(f"推送到远程 origin/{branch} ...")
-    push_result = run(["git", "-C", str(repo_root), "push", "origin", branch])
-    if push_result.returncode != 0:
-        print("⚠️ 推送到 origin 失败，已跳过 GitHub 推送。")
+    # 让用户选择推送目标
+    print("\n选择推送目标：")
+    print("1. 推送到 GitHub 和 Gitee (默认)")
+    print("2. 只推送到 GitHub")
+    print("3. 只推送到 Gitee")
+    choice = input("请输入选项 [1]: ").strip() or "1"
+    push_github = choice in {"1", "2"}
+    push_gitee_flag = choice in {"1", "3"}
 
-    # 推送到 gitee
-    if ensure_gitee_remote(repo_root):
+    if push_github:
+        print(f"推送到远程 origin/{branch} ...")
+        push_result = run(["git", "-C", str(repo_root), "push", "origin", branch])
+        if push_result.returncode != 0:
+            print("⚠️ 推送到 origin 失败，已跳过 GitHub 推送。")
+
+    if push_gitee_flag and ensure_gitee_remote(repo_root):
         print(f"推送到远程 {GITEE_REMOTE_NAME}/{branch} ...")
         push_gitee = run(
             ["git", "-C", str(repo_root), "push", GITEE_REMOTE_NAME, branch]
