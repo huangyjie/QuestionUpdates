@@ -39,6 +39,13 @@
             "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_20251126142422.jpg",
             "linkUrl": "",
             "priority": 5
+        },
+        {
+            "id": "banner_20251126142540",
+            "title": "bg10",
+            "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_20251126142540.jpg",
+            "linkUrl": "",
+            "priority": 5
         }
     ]
 }
