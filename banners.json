@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "updated": "2025-11-26",
+  "cacheMaxAgeSeconds": 3600,
+  "items": [
+    {
+      "id": "banner_1",
+      "title": "推荐活动",
+      "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_1.webp",
+      "linkUrl": "https://www.cjit.edu.cn/index.htm",
+      "priority": 10,
+      "start": "2025-11-01",
+      "end": "2025-12-31"
+    },
+    {
+      "id": "banner_2",
+      "title": "刷题助手",
+      "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_2.webp",
+      "linkUrl": "https://gitee.com/langzhikeji/QuestionUpdates",
+      "priority": 8
+    },
+    {
+      "id": "banner_3",
+      "title": "学习资源",
+      "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_3.webp",
+      "linkUrl": "https://gitee.com/langzhikeji",
+      "priority": 5
+    }
+  ]
+}
