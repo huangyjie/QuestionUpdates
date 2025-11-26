@@ -1,0 +1,15 @@
+{
+    "items": [
+        {
+            "id": "group_20251126162053",
+            "name": "职校生的温暖小窝",
+            "platform": "QQ",
+            "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/groups/group_20251126162053.jpg",
+            "inviteUrl": "点击链接加入群聊【职校生的温暖小窝】：https://qm.qq.com/q/m0ZKiE7ZEk",
+            "priority": 5,
+            "schemeUrl": "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=1011860345&card_type=group&source=qzone",
+            "qqNumber": "1011860345"
+        }
+    ],
+    "updated": "2025-11-26"
+}
