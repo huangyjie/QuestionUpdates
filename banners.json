@@ -6,6 +6,13 @@
             "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_20251126142825.jpg",
             "linkUrl": "",
             "priority": 5
+        },
+        {
+            "id": "banner_20251126142939",
+            "title": "test",
+            "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_20251126142939.jpg",
+            "linkUrl": "https://chat.openai.com/",
+            "priority": 1
         }
     ],
     "updated": "2025-11-26"
