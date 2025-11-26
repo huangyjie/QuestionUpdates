@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "微信交流群",
+      "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/groups/group_wechat.png",
+      "linkUrl": "https://weixin.qq.com/",
+      "description": "扫码加入微信学习交流群"
+    },
+    {
+      "name": "QQ交流群",
+      "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/groups/group_qq.png",
+      "linkUrl": "https://im.qq.com/",
+      "description": "扫码加入 QQ 学习交流群"
+    }
+  ]
+}
+
