@@ -9,7 +9,17 @@
             "priority": 5,
             "schemeUrl": "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=1011860345&card_type=group&source=qzone",
             "qqNumber": "1011860345"
+        },
+        {
+            "id": "group_20251127142221",
+            "name": "26年技考交流",
+            "platform": "QQ",
+            "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/groups/group_20251127142221.jpg",
+            "inviteUrl": "点击链接加入群聊【26年技考交流】：https://qm.qq.com/q/otnGIK1DNK",
+            "priority": 4,
+            "schemeUrl": "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=724500737&card_type=group&source=qzone",
+            "qqNumber": "724500737"
         }
     ],
-    "updated": "2025-11-26"
+    "updated": "2025-11-27"
 }
