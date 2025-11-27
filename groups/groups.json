@@ -19,6 +19,16 @@
             "priority": 4,
             "schemeUrl": "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=724500737&card_type=group&source=qzone",
             "qqNumber": "724500737"
+        },
+        {
+            "id": "group_20251127142718",
+            "name": "2026年湖北省技能高考交流群",
+            "platform": "QQ",
+            "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/groups/group_20251127142718.jpg",
+            "inviteUrl": "https://qm.qq.com/q/DvgPlCGSKk",
+            "priority": 3,
+            "schemeUrl": "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=932492800&card_type=group&source=qzone",
+            "qqNumber": "932492800"
         }
     ],
     "updated": "2025-11-27"
