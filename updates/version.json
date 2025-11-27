@@ -1,7 +1,7 @@
 {
-    "versionCode": 3,
-    "versionName": "2.1.0",
-    "changelog": "feat(权限管理): 新增权限管理页面及功能\n\n- 添加权限管理活动页面，集中管理文件、通知和安装权限\n- 实现权限状态检测与显示功能\n- 优化系统设置页面中的权限相关逻辑\n- 更新版本号至2.1.0\n- 修复删除目录时文件大小计算问题",
-    "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.1.0-20251127-123200.apk",
-    "forceUpdate": false
+    "versionCode": 4,
+    "versionName": "2.1.0.1",
+    "changelog": "feat(banner): 实现轮播图自动滚动和背景色平滑过渡\n\n添加轮播图自动滚动功能，支持用户滑动时暂停、松开后恢复\n实现背景色平滑过渡动画，提升视觉效果\n修复轮播图循环滚动时的边界跳转问题",
+    "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.1.0.1-20251127-140626.apk",
+    "forceUpdate": true
 }
