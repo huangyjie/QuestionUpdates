@@ -1,7 +1,7 @@
 {
-    "versionCode": 2,
-    "versionName": "2.0.0",
-    "changelog": "feat: 新增下载管理功能并优化数据库导入流程\n\n- 新增下载管理页面，支持查看下载目录和清理文件\n- 优化数据库导入流程，自动导入下载的模板数据库\n- 扩展收藏和错题本数据库结构，支持动态选项\n- 美化公告弹窗布局，增强用户体验\n- 更新AGP版本至8.13.1\n- 添加ProfileActivity和DownloadManageActivity\n- 优化权限请求流程，增加权限说明对话框",
-    "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.0.0-20251127-105231.apk",
-    "forceUpdate": true
+    "versionCode": 3,
+    "versionName": "2.1.0",
+    "changelog": "feat(权限管理): 新增权限管理页面及功能\n\n- 添加权限管理活动页面，集中管理文件、通知和安装权限\n- 实现权限状态检测与显示功能\n- 优化系统设置页面中的权限相关逻辑\n- 更新版本号至2.1.0\n- 修复删除目录时文件大小计算问题",
+    "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.1.0-20251127-123200.apk",
+    "forceUpdate": false
 }
