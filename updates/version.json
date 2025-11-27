@@ -1,7 +1,7 @@
 {
-    "versionCode": 4,
-    "versionName": "2.1.0.1",
-    "changelog": "feat(banner): 实现轮播图自动滚动和背景色平滑过渡\n\n添加轮播图自动滚动功能，支持用户滑动时暂停、松开后恢复\n实现背景色平滑过渡动画，提升视觉效果\n修复轮播图循环滚动时的边界跳转问题",
-    "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.1.0.1-20251127-140626.apk",
+    "versionCode": 5,
+    "versionName": "2.2.0.0",
+    "changelog": "兼容低版本安卓",
+    "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.2.0.0-20251127-204012.apk",
     "forceUpdate": true
 }
