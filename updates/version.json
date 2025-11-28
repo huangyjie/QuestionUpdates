@@ -1,7 +1,7 @@
 {
-    "versionCode": 6,
-    "versionName": "2.2.1.0",
-    "changelog": "feat: 更新应用版本至2.2.1.0并优化多项功能\n\n- 更新版本号至2.2.1.0，版本码提升至6\n- 重构资源文件，删除旧版banner和背景drawable\n- 新增自适应图标和输入框背景drawable\n- 优化主题切换逻辑，移除冗余初始化检查\n- 添加开发模式自动测试工具支持\n- 调整最低SDK版本至29，优化存储权限处理\n- 重构图标资源，统一风格和尺寸\n- 优化设置页面交互，修复主题切换问题\n- 新增返回确认对话框防止误操作\n- 重构AI模型管理页面布局和交互\n- 优化随机练习和成绩页面的导航逻辑",
-    "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.2.1.0-20251128-023911.apk",
+    "versionCode": 7,
+    "versionName": "2.2.2.0",
+    "changelog": "feat: 实现顺序权限管理并优化公告显示逻辑\n\nrefactor(HomeFragment): 重构权限申请流程为顺序管理器\nfeat(AutoUpdateHelper): 增加公告内容摘要比对功能\nfix(RandomQuizActivity): 支持多选题答案识别与处理\nstyle: 更新下拉箭头图标为自定义矢量图",
+    "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.2.2.0-20251128-160510.apk",
     "forceUpdate": true
 }
