@@ -1,7 +1,7 @@
 {
-    "versionCode": 7,
-    "versionName": "2.2.2.0",
-    "changelog": "feat: 实现顺序权限管理并优化公告显示逻辑\n\nrefactor(HomeFragment): 重构权限申请流程为顺序管理器\nfeat(AutoUpdateHelper): 增加公告内容摘要比对功能\nfix(RandomQuizActivity): 支持多选题答案识别与处理\nstyle: 更新下拉箭头图标为自定义矢量图",
-    "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.2.2.0-20251128-160510.apk",
+    "versionCode": 8,
+    "versionName": "2.3.2.0",
+    "changelog": "feat: 新增顺序刷题功能与刷题记录管理\n\n实现顺序刷题功能，允许用户指定题号范围按顺序练习\n添加刷题记录管理界面，支持查看、导出和清空历史记录\n扩展数据库管理器支持按区间获取题目\n新增直角对话框样式和更多功能入口\n更新版本号至2.3.2.0",
+    "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.0-20251128-214005.apk",
     "forceUpdate": true
 }
