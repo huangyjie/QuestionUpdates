@@ -5,14 +5,14 @@
             "title": "cjgc",
             "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_20251127124827.png",
             "linkUrl": "https://www.cjit.edu.cn/",
-            "priority": 5
+            "priority": 1
         },
         {
             "id": "banner_20251127124914",
             "title": "cjzy",
             "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_20251127124914.png",
             "linkUrl": "https://www.cjxy.edu.cn/",
-            "priority": 4
+            "priority": 2
         },
         {
             "id": "banner_20251127125009",
@@ -26,14 +26,14 @@
             "title": "whzy",
             "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_20251127125052.png",
             "linkUrl": "https://www.wtc.edu.cn/",
-            "priority": 2
+            "priority": 4
         },
         {
             "id": "banner_20251127125137",
             "title": "xyzy",
             "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_20251127125137.png",
             "linkUrl": "https://www.hbxytc.cn/",
-            "priority": 1
+            "priority": 5
         },
         {
             "id": "banner_20251130022535",
@@ -61,7 +61,7 @@
             "title": "hbjt",
             "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_20251130023045.png",
             "linkUrl": "https://www.hbctc.edu.cn/index.htm",
-            "priority": 8
+            "priority": 9
         }
     ],
     "updated": "2025-11-30"
