@@ -34,7 +34,14 @@
             "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_20251127125137.png",
             "linkUrl": "https://www.hbxytc.cn/",
             "priority": 1
+        },
+        {
+            "id": "banner_20251130022535",
+            "title": "whrj",
+            "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_20251130022535.png",
+            "linkUrl": "https://www.whvcse.edu.cn",
+            "priority": 6
         }
     ],
-    "updated": "2025-11-27"
+    "updated": "2025-11-30"
 }
