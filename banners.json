@@ -41,6 +41,27 @@
             "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_20251130022535.png",
             "linkUrl": "https://www.whvcse.edu.cn",
             "priority": 6
+        },
+        {
+            "id": "banner_20251130022730",
+            "title": "slsd",
+            "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_20251130022730.png",
+            "linkUrl": "https://www.hbsy.cn/",
+            "priority": 7
+        },
+        {
+            "id": "banner_20251130022943",
+            "title": "whcb",
+            "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_20251130022943.png",
+            "linkUrl": "https://www.wspc.edu.cn/index.htm",
+            "priority": 8
+        },
+        {
+            "id": "banner_20251130023045",
+            "title": "hbjt",
+            "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_20251130023045.png",
+            "linkUrl": "https://www.hbctc.edu.cn/index.htm",
+            "priority": 8
         }
     ],
     "updated": "2025-11-30"
