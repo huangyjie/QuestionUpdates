@@ -29,7 +29,17 @@
             "priority": 3,
             "schemeUrl": "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=932492800&card_type=group&source=qzone",
             "qqNumber": "932492800"
+        },
+        {
+            "id": "group_20251130022211",
+            "name": "湖北省技能高考计算机交流",
+            "platform": "QQ",
+            "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/groups/group_20251130022211.jpg",
+            "inviteUrl": "点击链接加入群聊【湖北技能高考计算机交流】：https://qm.qq.com/q/EA9tPLoxBQ",
+            "priority": 2,
+            "schemeUrl": "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=718803277&card_type=group&source=qzone",
+            "qqNumber": "718803277"
         }
     ],
-    "updated": "2025-11-27"
+    "updated": "2025-11-30"
 }
