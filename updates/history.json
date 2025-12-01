@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "updated": "2025-12-01 18:18:18",
+    "updated": "2025-12-01 19:24:45",
     "items": [
         {
             "versionCode": 13,
@@ -8,7 +8,7 @@
             "changelog": "feat(更新日志): 添加更新详情页面和提交记录展示功能\n\n新增 ChangelogDetailActivity 用于展示版本更新详情\n\n添加提交记录列表展示布局和适配器\n\n扩展 UpdateRepository 支持解析 git 提交数据\n\n实现更新详情页面的数据绑定和交互功能",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.5-20251201-181636.apk",
             "forceUpdate": true,
-            "publishedAt": "2025-12-01 18:18:18",
+            "publishedAt": "2025-12-01 19:24:45",
             "gitCommits": [
                 {
                     "hash": "6e61574277f708e372a6f22454fef1e6e0c31469",
