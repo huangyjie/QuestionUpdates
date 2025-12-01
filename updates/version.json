@@ -1,7 +1,7 @@
 {
-    "versionCode": 13,
-    "versionName": "2.3.2.5",
-    "changelog": "feat(更新日志): 添加更新详情页面和提交记录展示功能\n\n新增 ChangelogDetailActivity 用于展示版本更新详情\n\n添加提交记录列表展示布局和适配器\n\n扩展 UpdateRepository 支持解析 git 提交数据\n\n实现更新详情页面的数据绑定和交互功能",
-    "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.5-20251201-181636.apk",
+    "versionCode": 14,
+    "versionName": "2.3.2.6",
+    "changelog": "feat(更新日志): 增强更新日志详情页的功能和样式\n\n- 新增强制更新标签的样式和显示逻辑\n- 优化更新日志的格式化显示，支持分类标签和更好的可读性\n- 改进提交类型统计的显示方式，使用中文分类和排序\n- 为更新日志内容添加文本选择功能\n- 更新应用版本号至2.3.2.6",
+    "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.6-20251201-194158.apk",
     "forceUpdate": true
 }

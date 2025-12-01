@@ -1,7 +1,29 @@
 {
     "version": 1,
-    "updated": "2025-12-01 19:24:45",
+    "updated": "2025-12-01 19:42:44",
     "items": [
+        {
+            "versionCode": 14,
+            "versionName": "2.3.2.6",
+            "changelog": "feat(更新日志): 增强更新日志详情页的功能和样式\n\n- 新增强制更新标签的样式和显示逻辑\n- 优化更新日志的格式化显示，支持分类标签和更好的可读性\n- 改进提交类型统计的显示方式，使用中文分类和排序\n- 为更新日志内容添加文本选择功能\n- 更新应用版本号至2.3.2.6",
+            "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.6-20251201-194158.apk",
+            "forceUpdate": true,
+            "publishedAt": "2025-12-01 19:42:44",
+            "gitCommits": [
+                {
+                    "hash": "799cb425e30d7329cd34b046776b153a37aae65d",
+                    "short": "799cb42",
+                    "date": "2025-12-01 19:40",
+                    "author": "huang",
+                    "subject": "feat(更新日志): 增强更新日志详情页的功能和样式",
+                    "message": "增强更新日志详情页的功能和样式",
+                    "type": "feat"
+                }
+            ],
+            "gitSummary": {
+                "feat": 1
+            }
+        },
         {
             "versionCode": 13,
             "versionName": "2.3.2.5",
