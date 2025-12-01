@@ -1,7 +1,39 @@
 {
     "version": 1,
-    "updated": "2025-12-01 17:52:18",
+    "updated": "2025-12-01 18:18:18",
     "items": [
+        {
+            "versionCode": 13,
+            "versionName": "2.3.2.5",
+            "changelog": "feat(更新日志): 添加更新详情页面和提交记录展示功能\n\n新增 ChangelogDetailActivity 用于展示版本更新详情\n\n添加提交记录列表展示布局和适配器\n\n扩展 UpdateRepository 支持解析 git 提交数据\n\n实现更新详情页面的数据绑定和交互功能",
+            "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.5-20251201-181636.apk",
+            "forceUpdate": true,
+            "publishedAt": "2025-12-01 18:18:18",
+            "gitCommits": [
+                {
+                    "hash": "6e61574277f708e372a6f22454fef1e6e0c31469",
+                    "short": "6e61574",
+                    "date": "2025-12-01 18:12",
+                    "author": "huang",
+                    "subject": "chore: 更新版本号至2.3.2.5并增加版本代码至13",
+                    "message": "更新版本号至2.3.2.5并增加版本代码至13",
+                    "type": "chore"
+                },
+                {
+                    "hash": "9f8d2aeca9c1d5658e00177cdbf7dcc294120f4e",
+                    "short": "9f8d2ae",
+                    "date": "2025-12-01 18:12",
+                    "author": "huang",
+                    "subject": "feat(更新日志): 添加更新详情页面和提交记录展示功能",
+                    "message": "添加更新详情页面和提交记录展示功能",
+                    "type": "feat"
+                }
+            ],
+            "gitSummary": {
+                "chore": 1,
+                "feat": 1
+            }
+        },
         {
             "versionCode": 12,
             "versionName": "2.3.2.4",
@@ -81,7 +113,7 @@
         {
             "versionCode": 0,
             "versionName": "2.3.2.1",
-            "changelog": "",
+            "changelog": "新增：\n- 实现暗色模式支持并优化UI组件 (8c2e6df)",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.1-20251130-020714.apk",
             "forceUpdate": false,
             "publishedAt": "2025-11-30 02:07:14",
@@ -103,7 +135,7 @@
         {
             "versionCode": 0,
             "versionName": "2.3.2.0",
-            "changelog": "",
+            "changelog": "新增：\n- 新增顺序刷题功能与刷题记录管理 (b048bae)",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.0-20251128-214005.apk",
             "forceUpdate": false,
             "publishedAt": "2025-11-28 21:40:05",
@@ -125,7 +157,7 @@
         {
             "versionCode": 0,
             "versionName": "2.2.2.0",
-            "changelog": "",
+            "changelog": "新增：\n- 实现顺序权限管理并优化公告显示逻辑 (491c273)\n- 添加自动测试确认对话框 (8d29a65)\n\n重构：\n- 移除未使用的VPN活动布局文件 (df1a0b1)\n\n杂项：\n- 更新版本号至7 (f7bf4e9)\n- 更新版本号至2.2.2.0 (87ae12e)",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.2.2.0-20251128-160510.apk",
             "forceUpdate": false,
             "publishedAt": "2025-11-28 16:05:10",
@@ -185,7 +217,7 @@
         {
             "versionCode": 0,
             "versionName": "2.2.1.0",
-            "changelog": "",
+            "changelog": "新增：\n- 更新应用版本至2.2.1.0并优化多项功能 (8fb2473)\n- 添加用户图标矢量图资源 (59dc032)",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.2.1.0-20251128-023911.apk",
             "forceUpdate": false,
             "publishedAt": "2025-11-28 02:39:11",
@@ -236,7 +268,7 @@
         {
             "versionCode": 0,
             "versionName": "2.1.0.1",
-            "changelog": "",
+            "changelog": "新增：\n- 实现轮播图自动滚动和背景色平滑过渡 (8c8bf7d)\n- 新增权限管理页面及功能 (f89f66f)\n\n杂项：\n- 更新版本号至2.1.0.1并增加版本代码至4 (3888c4a)",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.1.0.1-20251127-140626.apk",
             "forceUpdate": false,
             "publishedAt": "2025-11-27 14:06:26",
@@ -287,7 +319,7 @@
         {
             "versionCode": 0,
             "versionName": "2.0.0",
-            "changelog": "",
+            "changelog": "新增：\n- 新增下载管理功能并优化数据库导入流程 (7eeaabc)\n\n其他：\n- Stop tracking keystore.properties (cedbed0)\n- Stop tracking IDE and build files (7eeb4e6)\n- Initial setup of project files and directory structure. (4fb2685)\n- Initial commit (7cf896e)",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.0.0-20251127-105231.apk",
             "forceUpdate": false,
             "publishedAt": "2025-11-27 10:52:31",

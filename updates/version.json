@@ -1,7 +1,7 @@
 {
-    "versionCode": 12,
-    "versionName": "2.3.2.4",
-    "changelog": "feat(Changelog): 更新版本号并改进更新日志界面\n\n- 更新版本号至2.3.2.4，版本代码至12\n- 重构更新日志界面布局，使用CoordinatorLayout和MaterialToolbar\n- 添加返回按钮功能并处理状态栏重叠问题",
-    "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.4-20251201-174148.apk",
+    "versionCode": 13,
+    "versionName": "2.3.2.5",
+    "changelog": "feat(更新日志): 添加更新详情页面和提交记录展示功能\n\n新增 ChangelogDetailActivity 用于展示版本更新详情\n\n添加提交记录列表展示布局和适配器\n\n扩展 UpdateRepository 支持解析 git 提交数据\n\n实现更新详情页面的数据绑定和交互功能",
+    "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.5-20251201-181636.apk",
     "forceUpdate": true
 }
