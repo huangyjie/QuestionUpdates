@@ -1,7 +1,15 @@
 {
     "version": 1,
-    "updated": "2025-12-01 17:28:42",
+    "updated": "2025-12-01 17:33:41",
     "items": [
+        {
+            "versionCode": 11,
+            "versionName": "2.3.2.3",
+            "changelog": "feat(更新日志): 添加更新日志功能模块\n\n- 新增 ChangelogActivity 用于展示应用更新历史\n- 在关于页面添加更新日志入口\n- 实现从远程获取更新历史数据并展示\n- 添加相关布局文件和适配器逻辑",
+            "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.3-20251201-173323.apk",
+            "forceUpdate": true,
+            "publishedAt": "2025-12-01 17:33:41"
+        },
         {
             "versionCode": 10,
             "versionName": "2.3.2.2",
