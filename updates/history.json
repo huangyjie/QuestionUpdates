@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "updated": "2025-12-01 22:49:58",
+    "updated": "2025-12-01 22:54:26",
     "items": [
         {
             "versionCode": 16,
@@ -8,7 +8,21 @@
             "changelog": "feat(反馈): 支持多附件选择和发送\n\n- 在MailUtils中新增多附件发送功能，并保持对旧单附件方法的兼容\n- 反馈页面改用现代照片选择器，支持Android 13+的多选功能\n- 添加权限检查和旧版本兼容处理\n- 更新邮件模板显示附件数量信息\n- 同步更新应用版本号至2.3.2.8",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.8-20251201-224558.apk",
             "forceUpdate": true,
-            "publishedAt": "2025-12-01 22:49:58"
+            "publishedAt": "2025-12-01 22:54:26",
+            "gitCommits": [
+                {
+                    "hash": "3c9750c1a0393343be743188d6a1d6223469d4af",
+                    "short": "3c9750c",
+                    "date": "2025-12-01 22:44",
+                    "author": "huang",
+                    "subject": "feat(反馈): 支持多附件选择和发送",
+                    "message": "支持多附件选择和发送",
+                    "type": "feat"
+                }
+            ],
+            "gitSummary": {
+                "feat": 1
+            }
         },
         {
             "versionCode": 15,
@@ -16,7 +30,21 @@
             "changelog": "feat(主题): 添加夜间模式支持并更新版本号\n\n- 新增夜间模式背景资源文件\n- 修改关于页面布局以支持主题切换\n- 更新应用版本号至2.3.2.7",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.7-20251201-200405.apk",
             "forceUpdate": true,
-            "publishedAt": "2025-12-01 20:04:24"
+            "publishedAt": "2025-12-01 20:04:24",
+            "gitCommits": [
+                {
+                    "hash": "4e81a93b9dae1e6572aa7d41d011a1bc0ddace77",
+                    "short": "4e81a93",
+                    "date": "2025-12-01 20:01",
+                    "author": "huang",
+                    "subject": "feat(主题): 添加夜间模式支持并更新版本号",
+                    "message": "添加夜间模式支持并更新版本号",
+                    "type": "feat"
+                }
+            ],
+            "gitSummary": {
+                "feat": 1
+            }
         },
         {
             "versionCode": 14,
