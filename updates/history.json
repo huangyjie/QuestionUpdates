@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "updated": "2025-12-01 17:42:34",
+    "updated": "2025-12-01 17:43:31",
     "items": [
         {
             "versionCode": 12,
@@ -8,7 +8,7 @@
             "changelog": "feat(Changelog): 更新版本号并改进更新日志界面\n\n- 更新版本号至2.3.2.4，版本代码至12\n- 重构更新日志界面布局，使用CoordinatorLayout和MaterialToolbar\n- 添加返回按钮功能并处理状态栏重叠问题",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.4-20251201-174148.apk",
             "forceUpdate": true,
-            "publishedAt": "2025-12-01 17:42:34"
+            "publishedAt": "2025-12-01 17:43:31"
         },
         {
             "versionCode": 11,
