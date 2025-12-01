@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "updated": "2025-12-01 17:43:31",
+    "updated": "2025-12-01 17:51:12",
     "items": [
         {
             "versionCode": 12,
@@ -8,7 +8,21 @@
             "changelog": "feat(Changelog): 更新版本号并改进更新日志界面\n\n- 更新版本号至2.3.2.4，版本代码至12\n- 重构更新日志界面布局，使用CoordinatorLayout和MaterialToolbar\n- 添加返回按钮功能并处理状态栏重叠问题",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.4-20251201-174148.apk",
             "forceUpdate": true,
-            "publishedAt": "2025-12-01 17:43:31"
+            "publishedAt": "2025-12-01 17:51:12",
+            "gitCommits": [
+                {
+                    "hash": "2326c94370d7f20cc6c1b36efe39369db931486c",
+                    "short": "2326c94",
+                    "date": "2025-12-01 17:39",
+                    "author": "huang",
+                    "subject": "feat(Changelog): 更新版本号并改进更新日志界面",
+                    "message": "更新版本号并改进更新日志界面",
+                    "type": "feat"
+                }
+            ],
+            "gitSummary": {
+                "feat": 1
+            }
         },
         {
             "versionCode": 11,
@@ -16,7 +30,21 @@
             "changelog": "feat(更新日志): 添加更新日志功能模块\n\n- 新增 ChangelogActivity 用于展示应用更新历史\n- 在关于页面添加更新日志入口\n- 实现从远程获取更新历史数据并展示\n- 添加相关布局文件和适配器逻辑",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.3-20251201-173323.apk",
             "forceUpdate": true,
-            "publishedAt": "2025-12-01 17:33:41"
+            "publishedAt": "2025-12-01 17:33:41",
+            "gitCommits": [
+                {
+                    "hash": "aeb97332057f0f483394fc39e633a1390796332b",
+                    "short": "aeb9733",
+                    "date": "2025-12-01 17:30",
+                    "author": "huang",
+                    "subject": "feat(更新日志): 添加更新日志功能模块",
+                    "message": "添加更新日志功能模块",
+                    "type": "feat"
+                }
+            ],
+            "gitSummary": {
+                "feat": 1
+            }
         },
         {
             "versionCode": 10,
@@ -24,7 +52,31 @@
             "changelog": "feat: 新增题库导出、错题反馈和深色模式功能\n\n新增题库导出功能，支持Excel/Word/CSV/JSON/SQL等多种格式\n\n添加错题反馈功能，用户可提交题目勘误并通过QQ邮箱接收处理结果\n\n实现深色模式支持，可在设置中切换主题\n\n更新版本号至2.3.2.2，版本代码增至10\n\n优化界面样式，新增多个背景和图标资源\n\n添加JavaMail依赖，支持通过SMTP发送反馈邮件",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.2-20251201-042318.apk",
             "forceUpdate": true,
-            "publishedAt": "2025-12-01 17:28:42"
+            "publishedAt": "2025-12-01 17:28:42",
+            "gitCommits": [
+                {
+                    "hash": "ec6e425015944d381f73f0cf18777fcb65c2abfc",
+                    "short": "ec6e425",
+                    "date": "2025-12-01 04:35",
+                    "author": "huang",
+                    "subject": "fix(proguard): 修复R8混淆导致的OpenXML类缺失问题",
+                    "message": "修复R8混淆导致的OpenXML类缺失问题",
+                    "type": "fix"
+                },
+                {
+                    "hash": "441f2361dc3402b44336967d3e38fb64743615d2",
+                    "short": "441f236",
+                    "date": "2025-12-01 04:01",
+                    "author": "huang",
+                    "subject": "feat: 新增题库导出、错题反馈和深色模式功能",
+                    "message": "新增题库导出、错题反馈和深色模式功能",
+                    "type": "feat"
+                }
+            ],
+            "gitSummary": {
+                "fix": 1,
+                "feat": 1
+            }
         },
         {
             "versionCode": 0,
@@ -32,7 +84,21 @@
             "changelog": "",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.1-20251130-020714.apk",
             "forceUpdate": false,
-            "publishedAt": "2025-11-30 02:07:14"
+            "publishedAt": "2025-11-30 02:07:14",
+            "gitCommits": [
+                {
+                    "hash": "8c2e6df325d50ee1ad96bd6526ed7baa214c3217",
+                    "short": "8c2e6df",
+                    "date": "2025-11-30 02:04",
+                    "author": "huang",
+                    "subject": "feat: 实现暗色模式支持并优化UI组件",
+                    "message": "实现暗色模式支持并优化UI组件",
+                    "type": "feat"
+                }
+            ],
+            "gitSummary": {
+                "feat": 1
+            }
         },
         {
             "versionCode": 0,
@@ -40,7 +106,21 @@
             "changelog": "",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.0-20251128-214005.apk",
             "forceUpdate": false,
-            "publishedAt": "2025-11-28 21:40:05"
+            "publishedAt": "2025-11-28 21:40:05",
+            "gitCommits": [
+                {
+                    "hash": "b048baecbba62db252aa0c7734183d45840ec733",
+                    "short": "b048bae",
+                    "date": "2025-11-28 21:38",
+                    "author": "huang",
+                    "subject": "feat: 新增顺序刷题功能与刷题记录管理",
+                    "message": "新增顺序刷题功能与刷题记录管理",
+                    "type": "feat"
+                }
+            ],
+            "gitSummary": {
+                "feat": 1
+            }
         },
         {
             "versionCode": 0,
@@ -48,7 +128,59 @@
             "changelog": "",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.2.2.0-20251128-160510.apk",
             "forceUpdate": false,
-            "publishedAt": "2025-11-28 16:05:10"
+            "publishedAt": "2025-11-28 16:05:10",
+            "gitCommits": [
+                {
+                    "hash": "f7bf4e9d21cbce285e1d07c5bdf431fa86ab65a0",
+                    "short": "f7bf4e9",
+                    "date": "2025-11-28 16:02",
+                    "author": "huang",
+                    "subject": "chore: 更新版本号至7",
+                    "message": "更新版本号至7",
+                    "type": "chore"
+                },
+                {
+                    "hash": "87ae12e055a6ec997b68f4fa104070a9cae67844",
+                    "short": "87ae12e",
+                    "date": "2025-11-28 16:01",
+                    "author": "huang",
+                    "subject": "chore: 更新版本号至2.2.2.0",
+                    "message": "更新版本号至2.2.2.0",
+                    "type": "chore"
+                },
+                {
+                    "hash": "491c273b2a54de2afa17a4af6677e589dc078ed2",
+                    "short": "491c273",
+                    "date": "2025-11-28 16:01",
+                    "author": "huang",
+                    "subject": "feat: 实现顺序权限管理并优化公告显示逻辑",
+                    "message": "实现顺序权限管理并优化公告显示逻辑",
+                    "type": "feat"
+                },
+                {
+                    "hash": "df1a0b14850eec0304307b910a595b924109e5b1",
+                    "short": "df1a0b1",
+                    "date": "2025-11-28 16:00",
+                    "author": "huang",
+                    "subject": "refactor(layout): 移除未使用的VPN活动布局文件",
+                    "message": "移除未使用的VPN活动布局文件",
+                    "type": "refactor"
+                },
+                {
+                    "hash": "8d29a65904fbedf819e2320755e5cad5c5dbd6f5",
+                    "short": "8d29a65",
+                    "date": "2025-11-28 02:57",
+                    "author": "huang",
+                    "subject": "feat(DevAutoTester): 添加自动测试确认对话框",
+                    "message": "添加自动测试确认对话框",
+                    "type": "feat"
+                }
+            ],
+            "gitSummary": {
+                "chore": 2,
+                "feat": 2,
+                "refactor": 1
+            }
         },
         {
             "versionCode": 0,
@@ -56,7 +188,30 @@
             "changelog": "",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.2.1.0-20251128-023911.apk",
             "forceUpdate": false,
-            "publishedAt": "2025-11-28 02:39:11"
+            "publishedAt": "2025-11-28 02:39:11",
+            "gitCommits": [
+                {
+                    "hash": "8fb247355f3bbaf1326177317760f040540b9ce0",
+                    "short": "8fb2473",
+                    "date": "2025-11-28 02:26",
+                    "author": "huang",
+                    "subject": "feat: 更新应用版本至2.2.1.0并优化多项功能",
+                    "message": "更新应用版本至2.2.1.0并优化多项功能",
+                    "type": "feat"
+                },
+                {
+                    "hash": "59dc032785ad066ca6c529d4ede1618a281efa72",
+                    "short": "59dc032",
+                    "date": "2025-11-28 02:25",
+                    "author": "huang",
+                    "subject": "feat(资源): 添加用户图标矢量图资源",
+                    "message": "添加用户图标矢量图资源",
+                    "type": "feat"
+                }
+            ],
+            "gitSummary": {
+                "feat": 2
+            }
         },
         {
             "versionCode": 0,
@@ -64,7 +219,9 @@
             "changelog": "",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.2.0.0-20251127-204012.apk",
             "forceUpdate": false,
-            "publishedAt": "2025-11-27 20:40:12"
+            "publishedAt": "2025-11-27 20:40:12",
+            "gitCommits": [],
+            "gitSummary": {}
         },
         {
             "versionCode": 0,
@@ -72,7 +229,9 @@
             "changelog": "",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.1.0.1-20251127-201929.apk",
             "forceUpdate": false,
-            "publishedAt": "2025-11-27 20:19:29"
+            "publishedAt": "2025-11-27 20:19:29",
+            "gitCommits": [],
+            "gitSummary": {}
         },
         {
             "versionCode": 0,
@@ -80,7 +239,40 @@
             "changelog": "",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.1.0.1-20251127-140626.apk",
             "forceUpdate": false,
-            "publishedAt": "2025-11-27 14:06:26"
+            "publishedAt": "2025-11-27 14:06:26",
+            "gitCommits": [
+                {
+                    "hash": "3888c4a237e2c01e4006ecf666e5467eb5f7743e",
+                    "short": "3888c4a",
+                    "date": "2025-11-27 14:05",
+                    "author": "huang",
+                    "subject": "chore: 更新版本号至2.1.0.1并增加版本代码至4",
+                    "message": "更新版本号至2.1.0.1并增加版本代码至4",
+                    "type": "chore"
+                },
+                {
+                    "hash": "8c8bf7d0a012d678a6b24e6e662e9ade7fc23e69",
+                    "short": "8c8bf7d",
+                    "date": "2025-11-27 14:04",
+                    "author": "huang",
+                    "subject": "feat(banner): 实现轮播图自动滚动和背景色平滑过渡",
+                    "message": "实现轮播图自动滚动和背景色平滑过渡",
+                    "type": "feat"
+                },
+                {
+                    "hash": "f89f66f07ce7ccf23a17745faa0ff6e196b2ae37",
+                    "short": "f89f66f",
+                    "date": "2025-11-27 12:40",
+                    "author": "huang",
+                    "subject": "feat(权限管理): 新增权限管理页面及功能",
+                    "message": "新增权限管理页面及功能",
+                    "type": "feat"
+                }
+            ],
+            "gitSummary": {
+                "chore": 1,
+                "feat": 2
+            }
         },
         {
             "versionCode": 0,
@@ -88,7 +280,9 @@
             "changelog": "",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.1.0-20251127-123200.apk",
             "forceUpdate": false,
-            "publishedAt": "2025-11-27 12:32:00"
+            "publishedAt": "2025-11-27 12:32:00",
+            "gitCommits": [],
+            "gitSummary": {}
         },
         {
             "versionCode": 0,
@@ -96,7 +290,58 @@
             "changelog": "",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.0.0-20251127-105231.apk",
             "forceUpdate": false,
-            "publishedAt": "2025-11-27 10:52:31"
+            "publishedAt": "2025-11-27 10:52:31",
+            "gitCommits": [
+                {
+                    "hash": "7eeaabcfc37cbf6ad572487f1b1613ac2205c321",
+                    "short": "7eeaabc",
+                    "date": "2025-11-27 10:49",
+                    "author": "huang",
+                    "subject": "feat: 新增下载管理功能并优化数据库导入流程",
+                    "message": "新增下载管理功能并优化数据库导入流程",
+                    "type": "feat"
+                },
+                {
+                    "hash": "cedbed0d7bc75fe6040a40b281ba1e1ff617f476",
+                    "short": "cedbed0",
+                    "date": "2025-11-27 02:14",
+                    "author": "huang",
+                    "subject": "Stop tracking keystore.properties",
+                    "message": "Stop tracking keystore.properties",
+                    "type": "others"
+                },
+                {
+                    "hash": "7eeb4e61e526674988add58e782c4204090eefff",
+                    "short": "7eeb4e6",
+                    "date": "2025-11-27 02:13",
+                    "author": "huang",
+                    "subject": "Stop tracking IDE and build files",
+                    "message": "Stop tracking IDE and build files",
+                    "type": "others"
+                },
+                {
+                    "hash": "4fb268519b1ba52c7bf39863ca1531585729d521",
+                    "short": "4fb2685",
+                    "date": "2025-11-27 02:06",
+                    "author": "huang",
+                    "subject": "Initial setup of project files and directory structure.",
+                    "message": "Initial setup of project files and directory structure.",
+                    "type": "others"
+                },
+                {
+                    "hash": "7cf896e53c923382997de3b9289eeb731ecda833",
+                    "short": "7cf896e",
+                    "date": "2025-11-27 01:58",
+                    "author": "huang",
+                    "subject": "Initial commit",
+                    "message": "Initial commit",
+                    "type": "others"
+                }
+            ],
+            "gitSummary": {
+                "feat": 1,
+                "others": 4
+            }
         },
         {
             "versionCode": 0,
@@ -104,7 +349,9 @@
             "changelog": "",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v1.0.0-20251127-013112.apk",
             "forceUpdate": false,
-            "publishedAt": "2025-11-27 01:31:12"
+            "publishedAt": "2025-11-27 01:31:12",
+            "gitCommits": [],
+            "gitSummary": {}
         }
     ]
 }
