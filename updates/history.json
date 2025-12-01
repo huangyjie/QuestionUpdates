@@ -1,7 +1,15 @@
 {
     "version": 1,
-    "updated": "2025-12-01 19:42:44",
+    "updated": "2025-12-01 20:04:24",
     "items": [
+        {
+            "versionCode": 15,
+            "versionName": "2.3.2.7",
+            "changelog": "feat(主题): 添加夜间模式支持并更新版本号\n\n- 新增夜间模式背景资源文件\n- 修改关于页面布局以支持主题切换\n- 更新应用版本号至2.3.2.7",
+            "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.7-20251201-200405.apk",
+            "forceUpdate": true,
+            "publishedAt": "2025-12-01 20:04:24"
+        },
         {
             "versionCode": 14,
             "versionName": "2.3.2.6",
