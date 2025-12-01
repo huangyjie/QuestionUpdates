@@ -1,7 +1,15 @@
 {
     "version": 1,
-    "updated": "2025-12-01 20:04:24",
+    "updated": "2025-12-01 22:49:58",
     "items": [
+        {
+            "versionCode": 16,
+            "versionName": "2.3.2.8",
+            "changelog": "feat(反馈): 支持多附件选择和发送\n\n- 在MailUtils中新增多附件发送功能，并保持对旧单附件方法的兼容\n- 反馈页面改用现代照片选择器，支持Android 13+的多选功能\n- 添加权限检查和旧版本兼容处理\n- 更新邮件模板显示附件数量信息\n- 同步更新应用版本号至2.3.2.8",
+            "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.8-20251201-224558.apk",
+            "forceUpdate": true,
+            "publishedAt": "2025-12-01 22:49:58"
+        },
         {
             "versionCode": 15,
             "versionName": "2.3.2.7",
