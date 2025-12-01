@@ -1,7 +1,7 @@
 {
     "versionCode": 10,
-    "versionName": "2.3.2.3",
-    "changelog": "",
+    "versionName": "2.3.2.2",
+    "changelog": "feat: 新增题库导出、错题反馈和深色模式功能\n\n新增题库导出功能，支持Excel/Word/CSV/JSON/SQL等多种格式\n\n添加错题反馈功能，用户可提交题目勘误并通过QQ邮箱接收处理结果\n\n实现深色模式支持，可在设置中切换主题\n\n更新版本号至2.3.2.2，版本代码增至10\n\n优化界面样式，新增多个背景和图标资源\n\n添加JavaMail依赖，支持通过SMTP发送反馈邮件",
     "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.2-20251201-042318.apk",
     "forceUpdate": true
 }
