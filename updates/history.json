@@ -1,7 +1,15 @@
 {
     "version": 1,
-    "updated": "2025-12-01 22:54:26",
+    "updated": "2025-12-08 20:17:37",
     "items": [
+        {
+            "versionCode": 17,
+            "versionName": "2.3.2.9",
+            "changelog": "添加万维模块的题目，可以在章节训练中学习",
+            "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.9-20251208-201717.apk",
+            "forceUpdate": true,
+            "publishedAt": "2025-12-08 20:17:37"
+        },
         {
             "versionCode": 16,
             "versionName": "2.3.2.8",
