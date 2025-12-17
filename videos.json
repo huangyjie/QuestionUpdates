@@ -2,5 +2,16 @@
     "version": 1,
     "updated": "2025-12-18",
     "cacheMaxAgeSeconds": 3600,
-    "items": []
+    "items": [
+        {
+            "id": "video_20251218033349",
+            "title": "测试",
+            "videoUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/videos/video_20251218033349.mp4",
+            "description": "测试",
+            "duration": "",
+            "thumbnailUrl": "",
+            "linkUrl": "",
+            "priority": 5
+        }
+    ]
 }
