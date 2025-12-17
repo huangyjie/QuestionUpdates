@@ -12,6 +12,16 @@
             "thumbnailUrl": "",
             "linkUrl": "",
             "priority": 5
+        },
+        {
+            "id": "video_20251218005405",
+            "title": "竖屏",
+            "videoUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/videos/video_20251218005405.mp4",
+            "description": "test",
+            "duration": "",
+            "thumbnailUrl": "",
+            "linkUrl": "",
+            "priority": 5
         }
     ]
 }
