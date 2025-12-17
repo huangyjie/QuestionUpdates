@@ -1,11 +1,16 @@
 # Changelog: last 100 commits
 
-_Generated at 2025-12-01 17:45:19. Total commits: 21_
+_Generated at 2025-12-18 04:00:20. Total commits: 28_
 
-**Summary:** feat=12, fix=1, refactor=1, chore=3, others=4
+**Summary:** feat=17, fix=2, refactor=1, chore=4, others=4
 
 ## ✨ Features
 
+- 添加教学视频功能，包括视频列表、播放器和Gitee登录 (ed40557, huang, 2025-12-18 02:02)
+- 支持多附件选择和发送 (3c9750c, huang, 2025-12-01 22:44)
+- 添加夜间模式支持并更新版本号 (4e81a93, huang, 2025-12-01 20:01)
+- 增强更新日志详情页的功能和样式 (799cb42, huang, 2025-12-01 19:40)
+- 添加更新详情页面和提交记录展示功能 (9f8d2ae, huang, 2025-12-01 18:12)
 - 更新版本号并改进更新日志界面 (2326c94, huang, 2025-12-01 17:39)
 - 添加更新日志功能模块 (aeb9733, huang, 2025-12-01 17:30)
 - 新增题库导出、错题反馈和深色模式功能 (441f236, huang, 2025-12-01 04:01)
@@ -21,6 +26,7 @@ _Generated at 2025-12-01 17:45:19. Total commits: 21_
 
 ## 🐛 Bug Fixes
 
+- 修复代码格式问题并更新版本号 (b2ff5f0, huang, 2025-12-11 18:26)
 - 修复R8混淆导致的OpenXML类缺失问题 (ec6e425, huang, 2025-12-01 04:35)
 
 ## ♻️ Refactoring
@@ -29,6 +35,7 @@ _Generated at 2025-12-01 17:45:19. Total commits: 21_
 
 ## 🔧 Chores
 
+- 更新版本号至2.3.2.5并增加版本代码至13 (6e61574, huang, 2025-12-01 18:12)
 - 更新版本号至7 (f7bf4e9, huang, 2025-11-28 16:02)
 - 更新版本号至2.2.2.0 (87ae12e, huang, 2025-11-28 16:01)
 - 更新版本号至2.1.0.1并增加版本代码至4 (3888c4a, huang, 2025-11-27 14:05)

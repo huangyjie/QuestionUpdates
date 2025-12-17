@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "updated": "2025-12-18 03:57:41",
+    "updated": "2025-12-18 04:01:45",
     "items": [
         {
             "versionCode": 18,
@@ -8,7 +8,31 @@
             "changelog": "修复已知问题，添加视频教学功能后期会逐步上线应用使用教程",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.3.0-20251218-035606.apk",
             "forceUpdate": true,
-            "publishedAt": "2025-12-18 03:57:41"
+            "publishedAt": "2025-12-18 04:01:45",
+            "gitCommits": [
+                {
+                    "hash": "ed4055738f732c6e02123c446b5b1d5106a7f96e",
+                    "short": "ed40557",
+                    "date": "2025-12-18 02:02",
+                    "author": "huang",
+                    "subject": "feat(video): 添加教学视频功能，包括视频列表、播放器和Gitee登录",
+                    "message": "添加教学视频功能，包括视频列表、播放器和Gitee登录",
+                    "type": "feat"
+                },
+                {
+                    "hash": "b2ff5f01b2dc8455d2dda203f44d9a9a1c995d59",
+                    "short": "b2ff5f0",
+                    "date": "2025-12-11 18:26",
+                    "author": "huang",
+                    "subject": "fix: 修复代码格式问题并更新版本号",
+                    "message": "修复代码格式问题并更新版本号",
+                    "type": "fix"
+                }
+            ],
+            "gitSummary": {
+                "feat": 1,
+                "fix": 1
+            }
         },
         {
             "versionCode": 17,
@@ -16,7 +40,9 @@
             "changelog": "添加万维模块的题目，可以在章节训练中学习",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.9-20251208-201717.apk",
             "forceUpdate": true,
-            "publishedAt": "2025-12-08 20:17:37"
+            "publishedAt": "2025-12-08 20:17:37",
+            "gitCommits": [],
+            "gitSummary": {}
         },
         {
             "versionCode": 16,
