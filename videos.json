@@ -48,6 +48,18 @@
             "priority": 5,
             "start": "2025-12-1",
             "end": "2025-12-03"
+        },
+        {
+            "id": "video_20251218034329",
+            "title": "测试",
+            "videoUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/videos/video_20251218034329.mp4",
+            "description": "测试",
+            "duration": "5",
+            "thumbnailUrl": "",
+            "linkUrl": "",
+            "priority": 5,
+            "start": "2025-12-18",
+            "end": "2025-12-28"
         }
     ]
 }
