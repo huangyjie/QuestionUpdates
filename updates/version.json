@@ -2,6 +2,6 @@
     "versionCode": 18,
     "versionName": "2.3.3.0",
     "changelog": "feat(video): 添加教学视频功能，包括视频列表、播放器和Gitee登录\n\n- 新增视频列表页面，支持从Gitee或GitHub获取视频配置\n- 实现视频播放器，支持全屏播放和手势控制\n- 添加Gitee OAuth登录功能，用于访问需要登录的大文件\n- 增加视频缓存功能，提升播放体验\n- 支持视频下载到本地存储\n- 更新版本号至2.3.3.0",
-    "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.3.0-20251218-021134.apk",
+    "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.3.0-20251218-021518.apk",
     "forceUpdate": true
 }
