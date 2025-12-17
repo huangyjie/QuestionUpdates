@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "updated": "2025-12-18 02:23:32",
+    "updated": "2025-12-18 02:23:47",
     "items": [
         {
             "versionCode": 18,
@@ -8,7 +8,7 @@
             "changelog": "",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.3.0-20251218-022205.apk",
             "forceUpdate": true,
-            "publishedAt": "2025-12-18 02:23:32"
+            "publishedAt": "2025-12-18 02:23:47"
         },
         {
             "versionCode": 17,
