@@ -23,6 +23,18 @@
             "linkUrl": "",
             "priority": 5,
             "start": "2025-12-18"
+        },
+        {
+            "id": "video_20251218033901",
+            "title": "永久",
+            "videoUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/videos/video_20251218033901.mp4",
+            "description": "",
+            "duration": "",
+            "thumbnailUrl": "",
+            "linkUrl": "",
+            "priority": 5,
+            "start": "2025-12-18",
+            "end": "2025-12-19"
         }
     ]
 }
