@@ -2,67 +2,67 @@
     "items": [
         {
             "id": "banner_20251127124827",
-            "title": "cjgc",
+            "title": "cjit",
             "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_20251127124827.png",
             "linkUrl": "https://www.cjit.edu.cn/",
             "priority": 1
         },
         {
             "id": "banner_20251127124914",
-            "title": "cjzy",
+            "title": "cjxy",
             "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_20251127124914.png",
             "linkUrl": "https://www.cjxy.edu.cn/",
             "priority": 2
         },
         {
             "id": "banner_20251127125009",
-            "title": "whcs",
+            "title": "whcp",
             "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_20251127125009.png",
             "linkUrl": "https://www.whcp.edu.cn/",
             "priority": 3
         },
         {
             "id": "banner_20251127125052",
-            "title": "whzy",
+            "title": "wtc",
             "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_20251127125052.png",
             "linkUrl": "https://www.wtc.edu.cn/",
             "priority": 4
         },
         {
             "id": "banner_20251127125137",
-            "title": "xyzy",
+            "title": "hbxytc",
             "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_20251127125137.png",
             "linkUrl": "https://www.hbxytc.cn/",
             "priority": 5
         },
         {
             "id": "banner_20251130022535",
-            "title": "whrj",
+            "title": "whvcse",
             "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_20251130022535.png",
             "linkUrl": "https://www.whvcse.edu.cn",
             "priority": 6
         },
         {
             "id": "banner_20251130022730",
-            "title": "slsd",
+            "title": "hbsy",
             "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_20251130022730.png",
             "linkUrl": "https://www.hbsy.cn/",
             "priority": 7
         },
         {
             "id": "banner_20251130022943",
-            "title": "whcb",
+            "title": "wspc",
             "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_20251130022943.png",
             "linkUrl": "https://www.wspc.edu.cn/index.htm",
             "priority": 8
         },
         {
             "id": "banner_20251130023045",
-            "title": "hbjt",
+            "title": "hbctc",
             "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_20251130023045.png",
             "linkUrl": "https://www.hbctc.edu.cn/index.htm",
             "priority": 9
         }
     ],
-    "updated": "2025-12-18"
+    "updated": "2025-12-19"
 }
