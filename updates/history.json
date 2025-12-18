@@ -6,30 +6,6 @@
             "versionCode": 19,
             "versionName": "2.3.3.1",
             "changelog": "",
-            "downloadUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/updates/question-v2.3.3.1-20251218-123056.apk",
-            "forceUpdate": false,
-            "publishedAt": "2025-12-18 13:28:41"
-        },
-        {
-            "versionCode": 19,
-            "versionName": "2.3.3.1",
-            "changelog": "",
-            "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.3.1-20251218-132651.apk",
-            "forceUpdate": false,
-            "publishedAt": "2025-12-18 13:26:52"
-        },
-        {
-            "versionCode": 19,
-            "versionName": "2.3.3.1",
-            "changelog": "",
-            "downloadUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/updates/question-v2.3.3.1-20251218-130943.apk",
-            "forceUpdate": false,
-            "publishedAt": "2025-12-18 13:09:43"
-        },
-        {
-            "versionCode": 19,
-            "versionName": "2.3.3.1",
-            "changelog": "",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.3.1-20251218-123056.apk",
             "forceUpdate": true,
             "publishedAt": "2025-12-18 12:31:04"
