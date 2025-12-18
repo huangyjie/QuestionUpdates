@@ -8,7 +8,8 @@
             "inviteUrl": "点击链接加入群聊【职校生的温暖小窝】：https://qm.qq.com/q/m0ZKiE7ZEk",
             "priority": 5,
             "schemeUrl": "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=1011860345&card_type=group&source=qzone",
-            "qqNumber": "1011860345"
+            "qqNumber": "1011860345",
+            "description": "湖北省技能高考交流群"
         },
         {
             "id": "group_20251127142221",
@@ -18,7 +19,8 @@
             "inviteUrl": "点击链接加入群聊【26年技考交流】：https://qm.qq.com/q/otnGIK1DNK",
             "priority": 4,
             "schemeUrl": "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=724500737&card_type=group&source=qzone",
-            "qqNumber": "724500737"
+            "qqNumber": "724500737",
+            "description": "湖北省技能高考交流群"
         },
         {
             "id": "group_20251127142718",
@@ -28,7 +30,8 @@
             "inviteUrl": "https://qm.qq.com/q/DvgPlCGSKk",
             "priority": 3,
             "schemeUrl": "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=932492800&card_type=group&source=qzone",
-            "qqNumber": "932492800"
+            "qqNumber": "932492800",
+            "description": "湖北省技能高考交流群"
         },
         {
             "id": "group_20251130022211",
@@ -38,7 +41,8 @@
             "inviteUrl": "点击链接加入群聊【湖北技能高考计算机交流】：https://qm.qq.com/q/EA9tPLoxBQ",
             "priority": 2,
             "schemeUrl": "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=718803277&card_type=group&source=qzone",
-            "qqNumber": "718803277"
+            "qqNumber": "718803277",
+            "description": "湖北省技能高考交流群"
         }
     ],
     "updated": "2025-12-18"
