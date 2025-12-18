@@ -1,22 +1,14 @@
 {
     "version": 1,
-    "updated": "2025-12-18 13:39:14",
+    "updated": "2025-12-18 15:25:34",
     "items": [
         {
             "versionCode": 19,
             "versionName": "2.3.3.1",
             "changelog": "",
-            "downloadUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/updates/question-v2.3.3.1-20251218-123056.apk",
-            "forceUpdate": false,
-            "publishedAt": "2025-12-18 13:39:14"
-        },
-        {
-            "versionCode": 19,
-            "versionName": "2.3.3.1",
-            "changelog": "",
-            "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.3.1-20251218-123056.apk",
+            "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.3.1-20251218-152501.apk",
             "forceUpdate": true,
-            "publishedAt": "2025-12-18 12:31:04"
+            "publishedAt": "2025-12-18 15:25:34"
         },
         {
             "versionCode": 18,
