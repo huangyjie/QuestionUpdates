@@ -1,7 +1,7 @@
 {
-    "versionCode": 18,
-    "versionName": "2.3.3.0",
-    "changelog": "修复已知问题，添加视频教学功能后期会逐步上线应用使用教程",
-    "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.3.0-20251218-035606.apk",
+    "versionCode": 19,
+    "versionName": "2.3.3.1",
+    "changelog": "",
+    "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.3.1-20251218-123056.apk",
     "forceUpdate": true
 }
