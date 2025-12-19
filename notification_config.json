@@ -1,1 +1,12 @@
-[]
+[
+    {
+        "id": "notification_1766154391",
+        "title": "测试通知",
+        "content": "测试通知",
+        "type": "info",
+        "enabled": true,
+        "priority": 3,
+        "startTime": "2025-12-19 22:26:31",
+        "endTime": "2025-12-29 22:26:31"
+    }
+]
