@@ -1,14 +1,14 @@
 {
     "version": 1,
-    "updated": "2025-12-19 22:20:16",
+    "updated": "2025-12-19 22:24:11",
     "items": [
         {
             "versionCode": 23,
             "versionName": "2.4.1.2",
-            "changelog": "feat(更新): 添加Gitee认证支持并优化自动更新逻辑\n\n为支持Gitee资源访问，新增Gitee认证管理功能，包括：\n\n在更新请求中自动添加Gitee认证头\n\n添加Gitee登录界面和状态检查\n\n优化自动更新流程，传递activity上下文\n\n同时修复了数据库文件复制时的缩进问题，并调整了部分代码格式",
-            "downloadUrl": "",
+            "changelog": "添加Gitee认证支持并优化自动更新逻辑\\n\\n为支持Gitee资源访问，新增Gitee认证管理功能，包括：\\n\\n在更新请求中自动添加Gitee认证头\\n\\n添加Gitee登录界面和状态检查\\n\\n优化自动更新流程，传递activity上下文\\n\\n同时修复了数据库文件复制时的缩进问题，并调整了部分代码格式",
+            "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.4.1.2-20251219-222353.apk",
             "forceUpdate": true,
-            "publishedAt": "2025-12-19 22:20:16"
+            "publishedAt": "2025-12-19 22:24:11"
         },
         {
             "versionCode": 22,
