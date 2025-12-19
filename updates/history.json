@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "updated": "2025-12-20 04:55:26",
+    "updated": "2025-12-20 04:57:13",
     "items": [
         {
             "versionCode": 24,
@@ -8,7 +8,49 @@
             "changelog": "feat: 优化UI界面和修复部分已知问题\n\n优化数据库管理界面，改进数据库名称显示和排序\n\n重构关于页面布局和样式，移除版本号冗余信息\n\n改进更新日志页面，优化状态栏样式和文本显示\n\n增强数据库导出界面，改进目录选择和表格显示\n\n添加系统悬浮窗权限检查和请求功能\n\n改进错误处理和日志记录",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.4.2.0-20251220-045520.apk",
             "forceUpdate": false,
-            "publishedAt": "2025-12-20 04:55:26"
+            "publishedAt": "2025-12-20 04:57:13",
+            "gitCommits": [
+                {
+                    "hash": "14fea59ff26a00c58d4fde2015589fc4cdb05eb0",
+                    "short": "14fea59",
+                    "date": "2025-12-20 04:54",
+                    "author": "huang",
+                    "subject": "feat: 优化UI界面和修复部分已知问题 - 优化数据库管理界面，改进数据库名称显示和排序 - 重构关于页面布局和样式，移除版本号冗余信息 - 改进更新日志页面，优化状态栏样式和文本显示 - 增强数据库导出界面，改进目录选择和表格显示 - 添加系统悬浮窗权限检查和请求功能 - 改进错误处理和日志记录",
+                    "message": "优化UI界面和修复部分已知问题 - 优化数据库管理界面，改进数据库名称显示和排序 - 重构关于页面布局和样式，移除版本号冗余信息 - 改进更新日志页面，优化状态栏样式和文本显示 - 增强数据库导出界面，改进目录选择和表格显示 - 添加系统悬浮窗权限检查和请求功能 - 改进错误处理和日志记录",
+                    "type": "feat"
+                },
+                {
+                    "hash": "ba40cbb7a42b5174c5c64b194ec45a163b986529",
+                    "short": "ba40cbb",
+                    "date": "2025-12-20 02:22",
+                    "author": "huang",
+                    "subject": "feat(更新): 添加检测更新时的Gitee登录验证",
+                    "message": "添加检测更新时的Gitee登录验证",
+                    "type": "feat"
+                },
+                {
+                    "hash": "d9612feb5d95d451d55a53842c419df8dc085574",
+                    "short": "d9612fe",
+                    "date": "2025-12-20 02:12",
+                    "author": "huang",
+                    "subject": "feat(通知服务): 优化前台服务启动逻辑并增加缓存机制",
+                    "message": "优化前台服务启动逻辑并增加缓存机制",
+                    "type": "feat"
+                },
+                {
+                    "hash": "68748f50a52e5886dd95e42547da2e8071c775ed",
+                    "short": "68748f5",
+                    "date": "2025-12-20 02:11",
+                    "author": "huang",
+                    "subject": "fix(通知服务): 修复前台服务启动逻辑并优化状态管理",
+                    "message": "修复前台服务启动逻辑并优化状态管理",
+                    "type": "fix"
+                }
+            ],
+            "gitSummary": {
+                "feat": 3,
+                "fix": 1
+            }
         },
         {
             "versionCode": 23,
@@ -16,7 +58,9 @@
             "changelog": "添加Gitee认证支持并优化自动更新逻辑\\n\\n为支持Gitee资源访问，新增Gitee认证管理功能，包括：\\n\\n在更新请求中自动添加Gitee认证头\\n\\n添加Gitee登录界面和状态检查\\n\\n优化自动更新流程，传递activity上下文\\n\\n同时修复了数据库文件复制时的缩进问题，并调整了部分代码格式",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.4.1.2-20251219-222353.apk",
             "forceUpdate": true,
-            "publishedAt": "2025-12-20 02:10:06"
+            "publishedAt": "2025-12-20 02:10:06",
+            "gitCommits": [],
+            "gitSummary": {}
         },
         {
             "versionCode": 22,
@@ -24,7 +68,21 @@
             "changelog": "feat(更新): 添加Gitee认证支持并优化自动更新逻辑\n\n为支持Gitee资源访问，新增Gitee认证管理功能，包括：\n\n在更新请求中自动添加Gitee认证头\n\n添加Gitee登录界面和状态检查\n\n优化自动更新流程，传递activity上下文\n\n同时修复了数据库文件复制时的缩进问题，并调整了部分代码格式",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.4.1.1-20251219-220834.apk",
             "forceUpdate": true,
-            "publishedAt": "2025-12-19 22:09:00"
+            "publishedAt": "2025-12-19 22:09:00",
+            "gitCommits": [
+                {
+                    "hash": "75493300b72ecd02502464e8363ca93590499442",
+                    "short": "7549330",
+                    "date": "2025-12-19 22:05",
+                    "author": "huang",
+                    "subject": "feat(更新): 添加Gitee认证支持并优化自动更新逻辑",
+                    "message": "添加Gitee认证支持并优化自动更新逻辑",
+                    "type": "feat"
+                }
+            ],
+            "gitSummary": {
+                "feat": 1
+            }
         },
         {
             "versionCode": 21,
