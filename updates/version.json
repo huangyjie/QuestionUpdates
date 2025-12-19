@@ -1,7 +1,7 @@
 {
-    "versionCode": 21,
-    "versionName": "2.4.1.0",
-    "changelog": "feat: 新增数据模块和通知服务功能\n\n- 添加数据模块展示年度招生数据和院校信息\n- 实现通知服务及前台服务保持后台运行\n- 新增开机自启动接收器\n- 添加院校详情和年度详情页面\n- 优化题库总数加载性能\n- 更新版本至2.4.1.0",
-    "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.4.1.0-20251219-214915.apk",
+    "versionCode": 22,
+    "versionName": "2.4.1.1",
+    "changelog": "feat(更新): 添加Gitee认证支持并优化自动更新逻辑\n\n为支持Gitee资源访问，新增Gitee认证管理功能，包括：\n\n在更新请求中自动添加Gitee认证头\n\n添加Gitee登录界面和状态检查\n\n优化自动更新流程，传递activity上下文\n\n同时修复了数据库文件复制时的缩进问题，并调整了部分代码格式",
+    "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.4.1.1-20251219-220834.apk",
     "forceUpdate": true
 }
