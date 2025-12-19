@@ -1,6 +1,18 @@
 {
     "version": 1,
-    "updated": "2025-12-18",
+    "updated": "2025-12-19",
     "cacheMaxAgeSeconds": 3600,
-    "items": []
+    "items": [
+        {
+            "id": "video_20251219151215",
+            "title": "屏幕录制 2025-12-17 235548",
+            "videoUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/videos/video_20251219151215.mp4",
+            "description": "",
+            "duration": "",
+            "thumbnailUrl": "",
+            "linkUrl": "",
+            "priority": 5,
+            "start": "2025-12-19"
+        }
+    ]
 }
