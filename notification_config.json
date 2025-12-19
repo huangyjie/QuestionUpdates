@@ -1,12 +1,12 @@
 [
     {
-        "id": "notification_1766178056",
+        "id": "notification_1766178185",
         "title": "版本更新问题",
-        "content": "下载不了新版本的同学加问题反馈群下载",
+        "content": "下载不了新版本的同学进问题反馈群",
         "type": "info",
         "enabled": true,
         "priority": 3,
-        "startTime": "2025-12-20 05:00:56",
-        "endTime": "2025-12-30 05:00:56"
+        "startTime": "2025-12-20 05:03:05",
+        "endTime": "2025-12-30 05:03:05"
     }
 ]
