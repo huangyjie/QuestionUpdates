@@ -1,12 +1,12 @@
 [
     {
-        "id": "notification_1766154391",
-        "title": "测试通知",
-        "content": "测试通知",
+        "id": "notification_1766178056",
+        "title": "版本更新问题",
+        "content": "下载不了新本吧的同学加问题反馈群下载",
         "type": "info",
         "enabled": true,
         "priority": 3,
-        "startTime": "2025-12-19 22:26:31",
-        "endTime": "2025-12-29 22:26:31"
+        "startTime": "2025-12-20 05:00:56",
+        "endTime": "2025-12-30 05:00:56"
     }
 ]
