@@ -1,7 +1,7 @@
 {
-    "versionCode": 20,
-    "versionName": "2.4.0.0",
-    "changelog": "feat: 新增数据页面和院校详情功能\n\n- 添加数据页面展示年度招生数据和院校统计\n- 实现院校详情页面，支持按字段筛选和搜索\n- 新增年度详情页面展示具体年份招生数据\n- 更新版本号至2.4.0.0\n- 添加底部导航栏数据页入口\n- 新增相关布局文件和资源",
-    "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.4.0.0-20251219-172104.apk",
+    "versionCode": 21,
+    "versionName": "2.4.1.0",
+    "changelog": "feat: 新增数据模块和通知服务功能\n\n- 添加数据模块展示年度招生数据和院校信息\n- 实现通知服务及前台服务保持后台运行\n- 新增开机自启动接收器\n- 添加院校详情和年度详情页面\n- 优化题库总数加载性能\n- 更新版本至2.4.1.0",
+    "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.4.1.0-20251219-214915.apk",
     "forceUpdate": true
 }

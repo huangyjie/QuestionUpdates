@@ -1,7 +1,15 @@
 {
     "version": 1,
-    "updated": "2025-12-19 17:22:38",
+    "updated": "2025-12-19 21:53:33",
     "items": [
+        {
+            "versionCode": 21,
+            "versionName": "2.4.1.0",
+            "changelog": "feat: 新增数据模块和通知服务功能\n\n- 添加数据模块展示年度招生数据和院校信息\n- 实现通知服务及前台服务保持后台运行\n- 新增开机自启动接收器\n- 添加院校详情和年度详情页面\n- 优化题库总数加载性能\n- 更新版本至2.4.1.0",
+            "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.4.1.0-20251219-214915.apk",
+            "forceUpdate": true,
+            "publishedAt": "2025-12-19 21:53:33"
+        },
         {
             "versionCode": 20,
             "versionName": "2.4.0.0",
