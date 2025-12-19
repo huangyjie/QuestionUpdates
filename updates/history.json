@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "updated": "2025-12-19 17:21:56",
+    "updated": "2025-12-19 17:22:38",
     "items": [
         {
             "versionCode": 20,
@@ -8,17 +8,31 @@
             "changelog": "feat: 新增数据页面和院校详情功能\n\n- 添加数据页面展示年度招生数据和院校统计\n- 实现院校详情页面，支持按字段筛选和搜索\n- 新增年度详情页面展示具体年份招生数据\n- 更新版本号至2.4.0.0\n- 添加底部导航栏数据页入口\n- 新增相关布局文件和资源",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.4.0.0-20251219-172104.apk",
             "forceUpdate": true,
-            "publishedAt": "2025-12-19 17:21:56"
+            "publishedAt": "2025-12-19 17:22:38",
+            "gitCommits": [],
+            "gitSummary": {}
         },
         {
             "versionCode": 19,
             "versionName": "2.3.3.1",
-            "changelog": "",
+            "changelog": "新增：\n- 添加视频有效期显示和缓存优化 (a20bf94)",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.3.1-20251218-153219.apk",
             "forceUpdate": true,
             "publishedAt": "2025-12-19 15:51:53",
-            "gitCommits": [],
-            "gitSummary": {}
+            "gitCommits": [
+                {
+                    "hash": "a20bf94c00ca1b0c3e18fe1055c3013341a8c2ed",
+                    "short": "a20bf94",
+                    "date": "2025-12-19 02:50",
+                    "author": "huang",
+                    "subject": "feat: 添加视频有效期显示和缓存优化",
+                    "message": "添加视频有效期显示和缓存优化",
+                    "type": "feat"
+                }
+            ],
+            "gitSummary": {
+                "feat": 1
+            }
         },
         {
             "versionCode": 18,
