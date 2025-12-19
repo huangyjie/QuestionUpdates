@@ -1,0 +1,12 @@
+[
+    {
+        "id": "notification_1766147479",
+        "title": "test",
+        "content": "test",
+        "type": "info",
+        "enabled": true,
+        "priority": 3,
+        "startTime": "",
+        "endTime": ""
+    }
+]
