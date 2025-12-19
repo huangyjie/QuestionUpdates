@@ -1,5 +1,5 @@
 {
     "closeBehaviorRemembered": true,
-    "closeBehaviorAction": "minimize",
+    "closeBehaviorAction": "exit",
     "autoStart": false
 }
