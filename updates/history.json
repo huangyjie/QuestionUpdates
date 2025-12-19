@@ -1,14 +1,14 @@
 {
     "version": 1,
-    "updated": "2025-12-20 01:56:48",
+    "updated": "2025-12-20 02:01:07",
     "items": [
         {
             "versionCode": 24,
             "versionName": "2.4.1.3",
             "changelog": "",
-            "downloadUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/updates/question-v2.4.1.3-20251220-015502.apk",
+            "downloadUrl": "",
             "forceUpdate": true,
-            "publishedAt": "2025-12-20 01:56:48"
+            "publishedAt": "2025-12-20 02:01:07"
         },
         {
             "versionCode": 23,
