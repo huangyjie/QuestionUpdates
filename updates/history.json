@@ -1,11 +1,11 @@
 {
     "version": 1,
-    "updated": "2025-12-20 22:54:42",
+    "updated": "2025-12-20 22:55:51",
     "items": [
         {
             "versionCode": 25,
             "versionName": "2.4.3.0",
-            "changelog": "",
+            "changelog": "新增：\n- 新增开源软件声明页面和更多功能入口 (84d2974)",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.4.3.0-20251220-225302.apk",
             "forceUpdate": true,
             "publishedAt": "2025-12-20 22:54:42",

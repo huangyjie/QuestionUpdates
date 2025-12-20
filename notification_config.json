@@ -8,5 +8,15 @@
         "priority": 3,
         "startTime": "2025-12-20 05:03:05",
         "endTime": "2025-12-30 05:03:05"
+    },
+    {
+        "id": "notification_1766250691",
+        "title": "版本更新",
+        "content": "新版本优化了页面UI",
+        "type": "info",
+        "enabled": true,
+        "priority": 3,
+        "startTime": "2025-12-21 01:11:31",
+        "endTime": "2025-12-31 01:11:31"
     }
 ]
