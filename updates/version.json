@@ -1,7 +1,7 @@
 {
-    "versionCode": 24,
-    "versionName": "2.4.2.0",
-    "changelog": "feat: 优化UI界面和修复部分已知问题\n\n优化数据库管理界面，改进数据库名称显示和排序\n\n重构关于页面布局和样式，移除版本号冗余信息\n\n改进更新日志页面，优化状态栏样式和文本显示\n\n增强数据库导出界面，改进目录选择和表格显示\n\n添加系统悬浮窗权限检查和请求功能\n\n改进错误处理和日志记录",
-    "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.4.2.0-20251220-045520.apk",
-    "forceUpdate": false
+    "versionCode": 25,
+    "versionName": "2.4.3.0",
+    "changelog": "",
+    "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.4.3.0-20251220-225302.apk",
+    "forceUpdate": true
 }
