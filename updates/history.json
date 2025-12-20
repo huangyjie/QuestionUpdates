@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "updated": "2025-12-20 22:53:36",
+    "updated": "2025-12-20 22:54:42",
     "items": [
         {
             "versionCode": 25,
@@ -8,7 +8,21 @@
             "changelog": "",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.4.3.0-20251220-225302.apk",
             "forceUpdate": true,
-            "publishedAt": "2025-12-20 22:53:36"
+            "publishedAt": "2025-12-20 22:54:42",
+            "gitCommits": [
+                {
+                    "hash": "84d2974cea6febfa7d7de412187f25cbc4beb948",
+                    "short": "84d2974",
+                    "date": "2025-12-20 22:47",
+                    "author": "huang",
+                    "subject": "feat: 新增开源软件声明页面和更多功能入口",
+                    "message": "新增开源软件声明页面和更多功能入口",
+                    "type": "feat"
+                }
+            ],
+            "gitSummary": {
+                "feat": 1
+            }
         },
         {
             "versionCode": 24,
