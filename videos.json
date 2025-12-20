@@ -1,6 +1,18 @@
 {
     "version": 1,
-    "updated": "2025-12-19",
+    "updated": "2025-12-20",
     "cacheMaxAgeSeconds": 3600,
-    "items": []
+    "items": [
+        {
+            "id": "video_20251220171252",
+            "title": "12月20日",
+            "videoUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/videos/video_20251220171252.mp4",
+            "description": "大模型配置教学可以暂停慢慢看很简单的",
+            "duration": "",
+            "thumbnailUrl": "",
+            "linkUrl": "",
+            "priority": 5,
+            "start": "2025-12-20"
+        }
+    ]
 }
