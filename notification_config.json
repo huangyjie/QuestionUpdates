@@ -5,7 +5,7 @@
         "content": "下载不了新版本的同学进问题反馈群",
         "type": "info",
         "enabled": true,
-        "priority": 3,
+        "priority": 5,
         "startTime": "2025-12-20 05:03:05",
         "endTime": "2025-12-30 05:03:05"
     },
