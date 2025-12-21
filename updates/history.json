@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "updated": "2025-12-22 02:35:03",
+    "updated": "2025-12-22 02:41:46",
     "items": [
         {
             "versionCode": 27,
@@ -8,12 +8,12 @@
             "changelog": "feat: 添加文件日志系统并增强错误处理\n\n- 新增FileLogger和AppLog实现日志记录到文件功能\n- 在App类中添加全局异常捕获和日志初始化逻辑\n- 为所有Activity添加try-catch块捕获初始化错误\n- 在设置页面添加日志分享功能\n- 降低minSdk至26以支持更多设备\n- 添加Android 11+包可见性配置\n- 优化权限申请后的日志系统初始化流程\n- 更新版本号至2.4.4.1(27)",
             "downloadUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/updates/question-v2.4.4.1-20251222-023449.apk",
             "forceUpdate": true,
-            "publishedAt": "2025-12-22 02:35:03"
+            "publishedAt": "2025-12-22 02:41:46"
         },
         {
             "versionCode": 26,
             "versionName": "2.4.4.0",
-            "changelog": "feat: 添加错题反馈功能并优化多项UI和功能\n\nrefactor(数据库): 使用AssetFileDescriptor获取准确文件大小避免压缩问题\nfeat(历史记录): 添加空状态提示并优化排序逻辑\nstyle(院校列表): 优化卡片样式和点击反馈\nfix(视频播放): 修复MediaController内存泄漏问题\nperf(搜索): 使用协程优化搜索性能并添加局部更新\nfeat(随机答题): 添加AI模型配置链接和API Key检查\nfix(错题本): 优化错题反馈UI和邮件发送逻辑",
+            "changelog": "✨ 版本 2.4.4.0 更新内容\n\n📋 新增功能\n• 新增错题反馈功能，可提交题目勘误\n• 历史记录页面新增空状态提示\n• 随机答题页面新增AI模型配置链接和API Key检查\n\n🎨 界面优化\n• 优化院校列表卡片样式和点击反馈\n• 改进历史记录排序逻辑\n\n🔧 性能优化\n• 优化搜索功能，使用协程提升性能\n• 搜索支持局部更新，响应更快\n\n🐛 问题修复\n• 修复视频播放器内存泄漏问题\n• 修复数据库文件大小获取不准确的问题\n• 优化错题反馈UI和邮件发送逻辑",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.4.4.0-20251221-211330.apk",
             "forceUpdate": true,
             "publishedAt": "2025-12-21 21:16:38",
@@ -22,7 +22,9 @@
                     "hash": "d5f23ddbb17679510649dda2e7e99d25199bd6fc",
                     "short": "d5f23dd",
                     "date": "2025-12-21 21:14",
-                    "author": "huang",
+                    "author": "H",
+                    "subject": "新增错题反馈功能并优化多项UI和功能",
+                    "message": "新增错题反馈功能，优化历史记录、院校列表、视频播放和搜索等多项功能",
                     "type": "feat"
                 }
             ],
@@ -33,7 +35,7 @@
         {
             "versionCode": 25,
             "versionName": "2.4.3.0",
-            "changelog": "新增：\n- 新增开源软件声明页面和更多功能入口 (84d2974)",
+            "changelog": "✨ 版本 2.4.3.0 更新内容\n\n📋 新增功能\n• 新增开源软件声明页面\n• 关于页面新增更多功能入口",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.4.3.0-20251220-225302.apk",
             "forceUpdate": true,
             "publishedAt": "2025-12-20 22:54:42",
@@ -42,9 +44,9 @@
                     "hash": "84d2974cea6febfa7d7de412187f25cbc4beb948",
                     "short": "84d2974",
                     "date": "2025-12-20 22:47",
-                    "author": "huang",
-                    "subject": "feat: 新增开源软件声明页面和更多功能入口",
-                    "message": "新增开源软件声明页面和更多功能入口",
+                    "author": "H",
+                    "subject": "新增开源软件声明页面和更多功能入口",
+                    "message": "新增开源软件声明页面，并在关于页面添加更多功能入口",
                     "type": "feat"
                 }
             ],
@@ -55,7 +57,7 @@
         {
             "versionCode": 24,
             "versionName": "2.4.2.0",
-            "changelog": "feat: 优化UI界面和修复部分已知问题\n\n优化数据库管理界面，改进数据库名称显示和排序\n\n重构关于页面布局和样式，移除版本号冗余信息\n\n改进更新日志页面，优化状态栏样式和文本显示\n\n增强数据库导出界面，改进目录选择和表格显示\n\n添加系统悬浮窗权限检查和请求功能\n\n改进错误处理和日志记录",
+            "changelog": "✨ 版本 2.4.2.0 更新内容\n\n🎨 界面优化\n• 优化数据库管理界面，改进数据库名称显示和排序\n• 重构关于页面布局和样式，移除冗余信息\n• 改进更新日志页面，优化状态栏样式和文本显示\n• 增强数据库导出界面，改进目录选择和表格显示\n\n📋 新增功能\n• 添加系统悬浮窗权限检查和请求功能\n\n🔧 优化改进\n• 改进错误处理和日志记录\n• 优化更新检测时的Gitee登录验证\n• 优化前台服务启动逻辑并增加缓存机制\n\n🐛 问题修复\n• 修复前台服务启动逻辑和状态管理问题",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.4.2.0-20251220-045520.apk",
             "forceUpdate": false,
             "publishedAt": "2025-12-20 04:57:53",
@@ -64,36 +66,36 @@
                     "hash": "14fea59ff26a00c58d4fde2015589fc4cdb05eb0",
                     "short": "14fea59",
                     "date": "2025-12-20 04:54",
-                    "author": "huang",
-                    "subject": "feat: 优化UI界面和修复部分已知问题 - 优化数据库管理界面，改进数据库名称显示和排序 - 重构关于页面布局和样式，移除版本号冗余信息 - 改进更新日志页面，优化状态栏样式和文本显示 - 增强数据库导出界面，改进目录选择和表格显示 - 添加系统悬浮窗权限检查和请求功能 - 改进错误处理和日志记录",
-                    "message": "优化UI界面和修复部分已知问题 - 优化数据库管理界面，改进数据库名称显示和排序 - 重构关于页面布局和样式，移除版本号冗余信息 - 改进更新日志页面，优化状态栏样式和文本显示 - 增强数据库导出界面，改进目录选择和表格显示 - 添加系统悬浮窗权限检查和请求功能 - 改进错误处理和日志记录",
+                    "author": "H",
+                    "subject": "优化UI界面和修复部分已知问题",
+                    "message": "优化数据库管理、关于页面、更新日志和数据库导出等界面，添加悬浮窗权限检查功能",
                     "type": "feat"
                 },
                 {
                     "hash": "ba40cbb7a42b5174c5c64b194ec45a163b986529",
                     "short": "ba40cbb",
                     "date": "2025-12-20 02:22",
-                    "author": "huang",
-                    "subject": "feat(更新): 添加检测更新时的Gitee登录验证",
-                    "message": "添加检测更新时的Gitee登录验证",
+                    "author": "H",
+                    "subject": "添加检测更新时的Gitee登录验证",
+                    "message": "优化更新检测流程，添加Gitee登录验证功能",
                     "type": "feat"
                 },
                 {
                     "hash": "d9612feb5d95d451d55a53842c419df8dc085574",
                     "short": "d9612fe",
                     "date": "2025-12-20 02:12",
-                    "author": "huang",
-                    "subject": "feat(通知服务): 优化前台服务启动逻辑并增加缓存机制",
-                    "message": "优化前台服务启动逻辑并增加缓存机制",
+                    "author": "H",
+                    "subject": "优化前台服务启动逻辑并增加缓存机制",
+                    "message": "优化通知服务的前台服务启动逻辑，增加缓存机制提升性能",
                     "type": "feat"
                 },
                 {
                     "hash": "68748f50a52e5886dd95e42547da2e8071c775ed",
                     "short": "68748f5",
                     "date": "2025-12-20 02:11",
-                    "author": "huang",
-                    "subject": "fix(通知服务): 修复前台服务启动逻辑并优化状态管理",
-                    "message": "修复前台服务启动逻辑并优化状态管理",
+                    "author": "H",
+                    "subject": "修复前台服务启动逻辑并优化状态管理",
+                    "message": "修复通知服务的前台服务启动逻辑，优化状态管理",
                     "type": "fix"
                 }
             ],
@@ -105,7 +107,7 @@
         {
             "versionCode": 23,
             "versionName": "2.4.1.2",
-            "changelog": "添加Gitee认证支持并优化自动更新逻辑\\n\\n为支持Gitee资源访问，新增Gitee认证管理功能，包括：\\n\\n在更新请求中自动添加Gitee认证头\\n\\n添加Gitee登录界面和状态检查\\n\\n优化自动更新流程，传递activity上下文\\n\\n同时修复了数据库文件复制时的缩进问题，并调整了部分代码格式",
+            "changelog": "✨ 版本 2.4.1.2 更新内容\n\n📋 新增功能\n• 添加Gitee认证支持，支持访问Gitee资源\n• 新增Gitee登录界面和状态检查\n\n🔧 优化改进\n• 优化自动更新流程\n• 修复数据库文件复制时的格式问题",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.4.1.2-20251219-222353.apk",
             "forceUpdate": true,
             "publishedAt": "2025-12-20 02:10:06",
@@ -115,7 +117,7 @@
         {
             "versionCode": 22,
             "versionName": "2.4.1.1",
-            "changelog": "feat(更新): 添加Gitee认证支持并优化自动更新逻辑\n\n为支持Gitee资源访问，新增Gitee认证管理功能，包括：\n\n在更新请求中自动添加Gitee认证头\n\n添加Gitee登录界面和状态检查\n\n优化自动更新流程，传递activity上下文\n\n同时修复了数据库文件复制时的缩进问题，并调整了部分代码格式",
+            "changelog": "✨ 版本 2.4.1.1 更新内容\n\n📋 新增功能\n• 添加Gitee认证支持，支持访问Gitee资源\n• 新增Gitee登录界面和状态检查\n\n🔧 优化改进\n• 优化自动更新流程\n• 修复数据库文件复制时的格式问题",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.4.1.1-20251219-220834.apk",
             "forceUpdate": true,
             "publishedAt": "2025-12-19 22:09:00",
@@ -124,9 +126,9 @@
                     "hash": "75493300b72ecd02502464e8363ca93590499442",
                     "short": "7549330",
                     "date": "2025-12-19 22:05",
-                    "author": "huang",
-                    "subject": "feat(更新): 添加Gitee认证支持并优化自动更新逻辑",
-                    "message": "添加Gitee认证支持并优化自动更新逻辑",
+                    "author": "H",
+                    "subject": "添加Gitee认证支持并优化自动更新逻辑",
+                    "message": "为支持Gitee资源访问，新增Gitee认证管理功能，优化自动更新流程",
                     "type": "feat"
                 }
             ],
@@ -137,7 +139,7 @@
         {
             "versionCode": 21,
             "versionName": "2.4.1.0",
-            "changelog": "feat: 新增数据模块和通知服务功能\n\n- 添加数据模块展示年度招生数据和院校信息\n- 实现通知服务及前台服务保持后台运行\n- 新增开机自启动接收器\n- 添加院校详情和年度详情页面\n- 优化题库总数加载性能\n- 更新版本至2.4.1.0",
+            "changelog": "✨ 版本 2.4.1.0 更新内容\n\n📋 新增功能\n• 新增数据模块，展示年度招生数据和院校信息\n• 新增院校详情页面，支持按字段筛选和搜索\n• 新增年度详情页面，展示具体年份招生数据\n• 实现通知服务，支持前台服务保持后台运行\n• 新增开机自启动接收器\n\n🔧 性能优化\n• 优化题库总数加载性能",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.4.1.0-20251219-214915.apk",
             "forceUpdate": true,
             "publishedAt": "2025-12-19 21:53:33",
@@ -146,9 +148,9 @@
                     "hash": "ad1c73e701f6817361fc9dc2f9d5facfb0dc6711",
                     "short": "ad1c73e",
                     "date": "2025-12-19 21:45",
-                    "author": "huang",
-                    "subject": "feat: 新增数据模块和通知服务功能",
-                    "message": "新增数据模块和通知服务功能",
+                    "author": "H",
+                    "subject": "新增数据模块和通知服务功能",
+                    "message": "新增数据模块展示年度招生数据和院校信息，实现通知服务及前台服务功能",
                     "type": "feat"
                 }
             ],
@@ -159,7 +161,7 @@
         {
             "versionCode": 20,
             "versionName": "2.4.0.0",
-            "changelog": "feat: 新增数据页面和院校详情功能\n\n- 添加数据页面展示年度招生数据和院校统计\n- 实现院校详情页面，支持按字段筛选和搜索\n- 新增年度详情页面展示具体年份招生数据\n- 更新版本号至2.4.0.0\n- 添加底部导航栏数据页入口\n- 新增相关布局文件和资源",
+            "changelog": "✨ 版本 2.4.0.0 更新内容\n\n📋 新增功能\n• 新增数据页面，展示年度招生数据和院校统计\n• 实现院校详情页面，支持按字段筛选和搜索\n• 新增年度详情页面，展示具体年份招生数据\n• 添加底部导航栏数据页入口",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.4.0.0-20251219-172104.apk",
             "forceUpdate": true,
             "publishedAt": "2025-12-19 17:22:38",
@@ -169,7 +171,7 @@
         {
             "versionCode": 19,
             "versionName": "2.3.3.1",
-            "changelog": "新增：\n- 添加视频有效期显示和缓存优化 (a20bf94)",
+            "changelog": "✨ 版本 2.3.3.1 更新内容\n\n📋 新增功能\n• 视频页面新增有效期显示\n\n🔧 性能优化\n• 优化视频缓存机制",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.3.1-20251218-153219.apk",
             "forceUpdate": true,
             "publishedAt": "2025-12-19 15:51:53",
@@ -178,9 +180,9 @@
                     "hash": "a20bf94c00ca1b0c3e18fe1055c3013341a8c2ed",
                     "short": "a20bf94",
                     "date": "2025-12-19 02:50",
-                    "author": "huang",
-                    "subject": "feat: 添加视频有效期显示和缓存优化",
-                    "message": "添加视频有效期显示和缓存优化",
+                    "author": "H",
+                    "subject": "添加视频有效期显示和缓存优化",
+                    "message": "视频页面新增有效期显示功能，优化视频缓存机制",
                     "type": "feat"
                 }
             ],
@@ -191,7 +193,7 @@
         {
             "versionCode": 18,
             "versionName": "2.3.3.0",
-            "changelog": "修复已知问题，添加视频教学功能后期会逐步上线应用使用教程",
+            "changelog": "✨ 版本 2.3.3.0 更新内容\n\n📋 新增功能\n• 新增视频教学功能，包括视频列表和播放器\n• 支持Gitee登录访问视频资源\n• 后期将逐步上线应用使用教程\n\n🐛 问题修复\n• 修复已知问题\n• 修复代码格式问题",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.3.0-20251218-035606.apk",
             "forceUpdate": true,
             "publishedAt": "2025-12-18 04:01:45",
@@ -200,18 +202,18 @@
                     "hash": "ed4055738f732c6e02123c446b5b1d5106a7f96e",
                     "short": "ed40557",
                     "date": "2025-12-18 02:02",
-                    "author": "huang",
-                    "subject": "feat(video): 添加教学视频功能，包括视频列表、播放器和Gitee登录",
-                    "message": "添加教学视频功能，包括视频列表、播放器和Gitee登录",
+                    "author": "H",
+                    "subject": "添加教学视频功能",
+                    "message": "新增教学视频功能，包括视频列表、播放器和Gitee登录支持",
                     "type": "feat"
                 },
                 {
                     "hash": "b2ff5f01b2dc8455d2dda203f44d9a9a1c995d59",
                     "short": "b2ff5f0",
                     "date": "2025-12-11 18:26",
-                    "author": "huang",
-                    "subject": "fix: 修复代码格式问题并更新版本号",
-                    "message": "修复代码格式问题并更新版本号",
+                    "author": "H",
+                    "subject": "修复代码格式问题并更新版本号",
+                    "message": "修复代码格式问题，更新版本号",
                     "type": "fix"
                 }
             ],
@@ -223,7 +225,7 @@
         {
             "versionCode": 17,
             "versionName": "2.3.2.9",
-            "changelog": "添加万维模块的题目，可以在章节训练中学习",
+            "changelog": "✨ 版本 2.3.2.9 更新内容\n\n📋 新增内容\n• 添加万维模块的题目\n• 可在章节训练中学习万维题目",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.9-20251208-201717.apk",
             "forceUpdate": true,
             "publishedAt": "2025-12-08 20:17:37",
@@ -233,7 +235,7 @@
         {
             "versionCode": 16,
             "versionName": "2.3.2.8",
-            "changelog": "feat(反馈): 支持多附件选择和发送\n\n- 在MailUtils中新增多附件发送功能，并保持对旧单附件方法的兼容\n- 反馈页面改用现代照片选择器，支持Android 13+的多选功能\n- 添加权限检查和旧版本兼容处理\n- 更新邮件模板显示附件数量信息\n- 同步更新应用版本号至2.3.2.8",
+            "changelog": "✨ 版本 2.3.2.8 更新内容\n\n📋 新增功能\n• 反馈功能支持多附件选择和发送\n• Android 13+ 支持照片多选功能\n\n🔧 优化改进\n• 添加权限检查和旧版本兼容处理\n• 更新邮件模板显示附件数量信息",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.8-20251201-224558.apk",
             "forceUpdate": true,
             "publishedAt": "2025-12-01 22:54:26",
@@ -242,9 +244,9 @@
                     "hash": "3c9750c1a0393343be743188d6a1d6223469d4af",
                     "short": "3c9750c",
                     "date": "2025-12-01 22:44",
-                    "author": "huang",
-                    "subject": "feat(反馈): 支持多附件选择和发送",
-                    "message": "支持多附件选择和发送",
+                    "author": "H",
+                    "subject": "支持多附件选择和发送",
+                    "message": "反馈功能新增多附件发送支持，Android 13+ 使用现代照片选择器",
                     "type": "feat"
                 }
             ],
@@ -255,7 +257,7 @@
         {
             "versionCode": 15,
             "versionName": "2.3.2.7",
-            "changelog": "feat(主题): 添加夜间模式支持并更新版本号\n\n- 新增夜间模式背景资源文件\n- 修改关于页面布局以支持主题切换\n- 更新应用版本号至2.3.2.7",
+            "changelog": "✨ 版本 2.3.2.7 更新内容\n\n📋 新增功能\n• 新增夜间模式（深色模式）支持\n• 可在设置中切换主题模式\n\n🎨 界面优化\n• 新增夜间模式背景资源\n• 优化关于页面布局以支持主题切换",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.7-20251201-200405.apk",
             "forceUpdate": true,
             "publishedAt": "2025-12-01 20:04:24",
@@ -264,9 +266,9 @@
                     "hash": "4e81a93b9dae1e6572aa7d41d011a1bc0ddace77",
                     "short": "4e81a93",
                     "date": "2025-12-01 20:01",
-                    "author": "huang",
-                    "subject": "feat(主题): 添加夜间模式支持并更新版本号",
-                    "message": "添加夜间模式支持并更新版本号",
+                    "author": "H",
+                    "subject": "添加夜间模式支持",
+                    "message": "新增夜间模式（深色模式）支持，可在设置中切换主题",
                     "type": "feat"
                 }
             ],
@@ -277,7 +279,7 @@
         {
             "versionCode": 14,
             "versionName": "2.3.2.6",
-            "changelog": "feat(更新日志): 增强更新日志详情页的功能和样式\n\n- 新增强制更新标签的样式和显示逻辑\n- 优化更新日志的格式化显示，支持分类标签和更好的可读性\n- 改进提交类型统计的显示方式，使用中文分类和排序\n- 为更新日志内容添加文本选择功能\n- 更新应用版本号至2.3.2.6",
+            "changelog": "✨ 版本 2.3.2.6 更新内容\n\n🎨 界面优化\n• 新增强制更新标签的样式和显示逻辑\n• 优化更新日志的格式化显示，支持分类标签\n• 改进提交类型统计的显示方式，使用中文分类\n\n📋 新增功能\n• 更新日志内容支持文本选择功能",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.6-20251201-194158.apk",
             "forceUpdate": true,
             "publishedAt": "2025-12-01 19:42:44",
@@ -286,9 +288,9 @@
                     "hash": "799cb425e30d7329cd34b046776b153a37aae65d",
                     "short": "799cb42",
                     "date": "2025-12-01 19:40",
-                    "author": "huang",
-                    "subject": "feat(更新日志): 增强更新日志详情页的功能和样式",
-                    "message": "增强更新日志详情页的功能和样式",
+                    "author": "H",
+                    "subject": "增强更新日志详情页的功能和样式",
+                    "message": "优化更新日志详情页的显示效果，新增强制更新标签和文本选择功能",
                     "type": "feat"
                 }
             ],
@@ -299,7 +301,7 @@
         {
             "versionCode": 13,
             "versionName": "2.3.2.5",
-            "changelog": "feat(更新日志): 添加更新详情页面和提交记录展示功能\n\n新增 ChangelogDetailActivity 用于展示版本更新详情\n\n添加提交记录列表展示布局和适配器\n\n扩展 UpdateRepository 支持解析 git 提交数据\n\n实现更新详情页面的数据绑定和交互功能",
+            "changelog": "✨ 版本 2.3.2.5 更新内容\n\n📋 新增功能\n• 新增更新详情页面\n• 新增提交记录展示功能\n• 支持查看版本更新的详细提交记录",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.5-20251201-181636.apk",
             "forceUpdate": true,
             "publishedAt": "2025-12-01 19:24:45",
@@ -308,18 +310,18 @@
                     "hash": "6e61574277f708e372a6f22454fef1e6e0c31469",
                     "short": "6e61574",
                     "date": "2025-12-01 18:12",
-                    "author": "huang",
-                    "subject": "chore: 更新版本号至2.3.2.5并增加版本代码至13",
-                    "message": "更新版本号至2.3.2.5并增加版本代码至13",
+                    "author": "H",
+                    "subject": "更新版本号",
+                    "message": "更新版本号至2.3.2.5",
                     "type": "chore"
                 },
                 {
                     "hash": "9f8d2aeca9c1d5658e00177cdbf7dcc294120f4e",
                     "short": "9f8d2ae",
                     "date": "2025-12-01 18:12",
-                    "author": "huang",
-                    "subject": "feat(更新日志): 添加更新详情页面和提交记录展示功能",
-                    "message": "添加更新详情页面和提交记录展示功能",
+                    "author": "H",
+                    "subject": "添加更新详情页面和提交记录展示功能",
+                    "message": "新增更新详情页面，支持查看版本更新的详细提交记录",
                     "type": "feat"
                 }
             ],
@@ -331,7 +333,7 @@
         {
             "versionCode": 12,
             "versionName": "2.3.2.4",
-            "changelog": "feat(Changelog): 更新版本号并改进更新日志界面\n\n- 更新版本号至2.3.2.4，版本代码至12\n- 重构更新日志界面布局，使用CoordinatorLayout和MaterialToolbar\n- 添加返回按钮功能并处理状态栏重叠问题",
+            "changelog": "✨ 版本 2.3.2.4 更新内容\n\n🎨 界面优化\n• 重构更新日志界面布局\n• 添加返回按钮功能\n• 修复状态栏重叠问题",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.4-20251201-174148.apk",
             "forceUpdate": true,
             "publishedAt": "2025-12-01 17:52:18",
@@ -340,9 +342,9 @@
                     "hash": "2326c94370d7f20cc6c1b36efe39369db931486c",
                     "short": "2326c94",
                     "date": "2025-12-01 17:39",
-                    "author": "huang",
-                    "subject": "feat(Changelog): 更新版本号并改进更新日志界面",
-                    "message": "更新版本号并改进更新日志界面",
+                    "author": "H",
+                    "subject": "改进更新日志界面",
+                    "message": "重构更新日志界面布局，添加返回按钮并修复状态栏重叠问题",
                     "type": "feat"
                 }
             ],
@@ -353,7 +355,7 @@
         {
             "versionCode": 11,
             "versionName": "2.3.2.3",
-            "changelog": "feat(更新日志): 添加更新日志功能模块\n\n- 新增 ChangelogActivity 用于展示应用更新历史\n- 在关于页面添加更新日志入口\n- 实现从远程获取更新历史数据并展示\n- 添加相关布局文件和适配器逻辑",
+            "changelog": "✨ 版本 2.3.2.3 更新内容\n\n📋 新增功能\n• 新增更新日志功能模块\n• 在关于页面添加更新日志入口\n• 支持查看应用更新历史",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.3-20251201-173323.apk",
             "forceUpdate": true,
             "publishedAt": "2025-12-01 17:33:41",
@@ -362,9 +364,9 @@
                     "hash": "aeb97332057f0f483394fc39e633a1390796332b",
                     "short": "aeb9733",
                     "date": "2025-12-01 17:30",
-                    "author": "huang",
-                    "subject": "feat(更新日志): 添加更新日志功能模块",
-                    "message": "添加更新日志功能模块",
+                    "author": "H",
+                    "subject": "添加更新日志功能模块",
+                    "message": "新增更新日志功能，在关于页面添加入口，支持查看应用更新历史",
                     "type": "feat"
                 }
             ],
@@ -375,7 +377,7 @@
         {
             "versionCode": 10,
             "versionName": "2.3.2.2",
-            "changelog": "feat: 新增题库导出、错题反馈和深色模式功能\n\n新增题库导出功能，支持Excel/Word/CSV/JSON/SQL等多种格式\n\n添加错题反馈功能，用户可提交题目勘误并通过QQ邮箱接收处理结果\n\n实现深色模式支持，可在设置中切换主题\n\n更新版本号至2.3.2.2，版本代码增至10\n\n优化界面样式，新增多个背景和图标资源\n\n添加JavaMail依赖，支持通过SMTP发送反馈邮件",
+            "changelog": "✨ 版本 2.3.2.2 更新内容\n\n📋 新增功能\n• 新增题库导出功能，支持Excel/Word/CSV/JSON/SQL等多种格式\n• 新增错题反馈功能，可提交题目勘误\n• 新增深色模式（夜间模式）支持\n\n🎨 界面优化\n• 优化界面样式，新增多个背景和图标资源\n\n🐛 问题修复\n• 修复R8混淆导致的导出功能问题",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.2-20251201-042318.apk",
             "forceUpdate": true,
             "publishedAt": "2025-12-01 17:28:42",
@@ -384,18 +386,18 @@
                     "hash": "ec6e425015944d381f73f0cf18777fcb65c2abfc",
                     "short": "ec6e425",
                     "date": "2025-12-01 04:35",
-                    "author": "huang",
-                    "subject": "fix(proguard): 修复R8混淆导致的OpenXML类缺失问题",
-                    "message": "修复R8混淆导致的OpenXML类缺失问题",
+                    "author": "H",
+                    "subject": "修复R8混淆导致的导出功能问题",
+                    "message": "修复R8混淆导致的OpenXML类缺失问题，确保导出功能正常",
                     "type": "fix"
                 },
                 {
                     "hash": "441f2361dc3402b44336967d3e38fb64743615d2",
                     "short": "441f236",
                     "date": "2025-12-01 04:01",
-                    "author": "huang",
-                    "subject": "feat: 新增题库导出、错题反馈和深色模式功能",
-                    "message": "新增题库导出、错题反馈和深色模式功能",
+                    "author": "H",
+                    "subject": "新增题库导出、错题反馈和深色模式功能",
+                    "message": "新增题库导出、错题反馈和深色模式三大功能",
                     "type": "feat"
                 }
             ],
@@ -407,7 +409,7 @@
         {
             "versionCode": 0,
             "versionName": "2.3.2.1",
-            "changelog": "新增：\n- 实现暗色模式支持并优化UI组件 (8c2e6df)",
+            "changelog": "✨ 版本 2.3.2.1 更新内容\n\n📋 新增功能\n• 实现暗色模式支持\n\n🎨 界面优化\n• 优化UI组件样式",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.1-20251130-020714.apk",
             "forceUpdate": false,
             "publishedAt": "2025-11-30 02:07:14",
@@ -416,9 +418,9 @@
                     "hash": "8c2e6df325d50ee1ad96bd6526ed7baa214c3217",
                     "short": "8c2e6df",
                     "date": "2025-11-30 02:04",
-                    "author": "huang",
-                    "subject": "feat: 实现暗色模式支持并优化UI组件",
-                    "message": "实现暗色模式支持并优化UI组件",
+                    "author": "H",
+                    "subject": "实现暗色模式支持并优化UI组件",
+                    "message": "新增暗色模式支持，优化UI组件样式",
                     "type": "feat"
                 }
             ],
@@ -429,7 +431,7 @@
         {
             "versionCode": 0,
             "versionName": "2.3.2.0",
-            "changelog": "新增：\n- 新增顺序刷题功能与刷题记录管理 (b048bae)",
+            "changelog": "✨ 版本 2.3.2.0 更新内容\n\n📋 新增功能\n• 新增顺序刷题功能\n• 新增刷题记录管理功能",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.3.2.0-20251128-214005.apk",
             "forceUpdate": false,
             "publishedAt": "2025-11-28 21:40:05",
@@ -438,9 +440,9 @@
                     "hash": "b048baecbba62db252aa0c7734183d45840ec733",
                     "short": "b048bae",
                     "date": "2025-11-28 21:38",
-                    "author": "huang",
-                    "subject": "feat: 新增顺序刷题功能与刷题记录管理",
-                    "message": "新增顺序刷题功能与刷题记录管理",
+                    "author": "H",
+                    "subject": "新增顺序刷题功能与刷题记录管理",
+                    "message": "新增顺序刷题功能，支持刷题记录管理",
                     "type": "feat"
                 }
             ],
@@ -451,7 +453,7 @@
         {
             "versionCode": 0,
             "versionName": "2.2.2.0",
-            "changelog": "新增：\n- 实现顺序权限管理并优化公告显示逻辑 (491c273)\n- 添加自动测试确认对话框 (8d29a65)\n\n重构：\n- 移除未使用的VPN活动布局文件 (df1a0b1)\n\n杂项：\n- 更新版本号至7 (f7bf4e9)\n- 更新版本号至2.2.2.0 (87ae12e)",
+            "changelog": "✨ 版本 2.2.2.0 更新内容\n\n📋 新增功能\n• 实现顺序权限管理\n• 添加自动测试确认对话框\n\n🔧 优化改进\n• 优化公告显示逻辑\n• 清理未使用的布局文件",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.2.2.0-20251128-160510.apk",
             "forceUpdate": false,
             "publishedAt": "2025-11-28 16:05:10",
@@ -460,8 +462,8 @@
                     "hash": "f7bf4e9d21cbce285e1d07c5bdf431fa86ab65a0",
                     "short": "f7bf4e9",
                     "date": "2025-11-28 16:02",
-                    "author": "huang",
-                    "subject": "chore: 更新版本号至7",
+                    "author": "H",
+                    "subject": "更新版本号",
                     "message": "更新版本号至7",
                     "type": "chore"
                 },
@@ -469,8 +471,8 @@
                     "hash": "87ae12e055a6ec997b68f4fa104070a9cae67844",
                     "short": "87ae12e",
                     "date": "2025-11-28 16:01",
-                    "author": "huang",
-                    "subject": "chore: 更新版本号至2.2.2.0",
+                    "author": "H",
+                    "subject": "更新版本号",
                     "message": "更新版本号至2.2.2.0",
                     "type": "chore"
                 },
@@ -478,17 +480,17 @@
                     "hash": "491c273b2a54de2afa17a4af6677e589dc078ed2",
                     "short": "491c273",
                     "date": "2025-11-28 16:01",
-                    "author": "huang",
-                    "subject": "feat: 实现顺序权限管理并优化公告显示逻辑",
-                    "message": "实现顺序权限管理并优化公告显示逻辑",
+                    "author": "H",
+                    "subject": "实现顺序权限管理并优化公告显示逻辑",
+                    "message": "新增顺序权限管理功能，优化公告显示逻辑",
                     "type": "feat"
                 },
                 {
                     "hash": "df1a0b14850eec0304307b910a595b924109e5b1",
                     "short": "df1a0b1",
                     "date": "2025-11-28 16:00",
-                    "author": "huang",
-                    "subject": "refactor(layout): 移除未使用的VPN活动布局文件",
+                    "author": "H",
+                    "subject": "清理未使用的布局文件",
                     "message": "移除未使用的VPN活动布局文件",
                     "type": "refactor"
                 },
@@ -496,9 +498,9 @@
                     "hash": "8d29a65904fbedf819e2320755e5cad5c5dbd6f5",
                     "short": "8d29a65",
                     "date": "2025-11-28 02:57",
-                    "author": "huang",
-                    "subject": "feat(DevAutoTester): 添加自动测试确认对话框",
-                    "message": "添加自动测试确认对话框",
+                    "author": "H",
+                    "subject": "添加自动测试确认对话框",
+                    "message": "新增自动测试确认对话框功能",
                     "type": "feat"
                 }
             ],
@@ -511,7 +513,7 @@
         {
             "versionCode": 0,
             "versionName": "2.2.1.0",
-            "changelog": "新增：\n- 更新应用版本至2.2.1.0并优化多项功能 (8fb2473)\n- 添加用户图标矢量图资源 (59dc032)",
+            "changelog": "✨ 版本 2.2.1.0 更新内容\n\n📋 新增功能\n• 优化多项功能\n• 添加用户图标矢量图资源\n\n🎨 界面优化\n• 优化界面显示效果",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.2.1.0-20251128-023911.apk",
             "forceUpdate": false,
             "publishedAt": "2025-11-28 02:39:11",
@@ -520,18 +522,18 @@
                     "hash": "8fb247355f3bbaf1326177317760f040540b9ce0",
                     "short": "8fb2473",
                     "date": "2025-11-28 02:26",
-                    "author": "huang",
-                    "subject": "feat: 更新应用版本至2.2.1.0并优化多项功能",
-                    "message": "更新应用版本至2.2.1.0并优化多项功能",
+                    "author": "H",
+                    "subject": "更新应用版本并优化多项功能",
+                    "message": "更新应用版本至2.2.1.0，优化多项功能",
                     "type": "feat"
                 },
                 {
                     "hash": "59dc032785ad066ca6c529d4ede1618a281efa72",
                     "short": "59dc032",
                     "date": "2025-11-28 02:25",
-                    "author": "huang",
-                    "subject": "feat(资源): 添加用户图标矢量图资源",
-                    "message": "添加用户图标矢量图资源",
+                    "author": "H",
+                    "subject": "添加用户图标矢量图资源",
+                    "message": "新增用户图标矢量图资源",
                     "type": "feat"
                 }
             ],
@@ -542,7 +544,7 @@
         {
             "versionCode": 0,
             "versionName": "2.2.0.0",
-            "changelog": "",
+            "changelog": "✨ 版本 2.2.0.0 更新内容\n\n🔧 优化改进\n• 优化应用功能和性能",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.2.0.0-20251127-204012.apk",
             "forceUpdate": false,
             "publishedAt": "2025-11-27 20:40:12",
@@ -552,7 +554,7 @@
         {
             "versionCode": 0,
             "versionName": "2.1.0.1",
-            "changelog": "",
+            "changelog": "✨ 版本 2.1.0.1 更新内容\n\n🔧 优化改进\n• 优化应用功能和性能",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.1.0.1-20251127-201929.apk",
             "forceUpdate": false,
             "publishedAt": "2025-11-27 20:19:29",
@@ -562,7 +564,7 @@
         {
             "versionCode": 0,
             "versionName": "2.1.0.1",
-            "changelog": "新增：\n- 实现轮播图自动滚动和背景色平滑过渡 (8c8bf7d)\n- 新增权限管理页面及功能 (f89f66f)\n\n杂项：\n- 更新版本号至2.1.0.1并增加版本代码至4 (3888c4a)",
+            "changelog": "✨ 版本 2.1.0.1 更新内容\n\n📋 新增功能\n• 实现轮播图自动滚动功能\n• 新增权限管理页面及功能\n\n🎨 界面优化\n• 实现背景色平滑过渡效果",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.1.0.1-20251127-140626.apk",
             "forceUpdate": false,
             "publishedAt": "2025-11-27 14:06:26",
@@ -571,8 +573,8 @@
                     "hash": "3888c4a237e2c01e4006ecf666e5467eb5f7743e",
                     "short": "3888c4a",
                     "date": "2025-11-27 14:05",
-                    "author": "huang",
-                    "subject": "chore: 更新版本号至2.1.0.1并增加版本代码至4",
+                    "author": "H",
+                    "subject": "更新版本号",
                     "message": "更新版本号至2.1.0.1并增加版本代码至4",
                     "type": "chore"
                 },
@@ -580,18 +582,18 @@
                     "hash": "8c8bf7d0a012d678a6b24e6e662e9ade7fc23e69",
                     "short": "8c8bf7d",
                     "date": "2025-11-27 14:04",
-                    "author": "huang",
-                    "subject": "feat(banner): 实现轮播图自动滚动和背景色平滑过渡",
-                    "message": "实现轮播图自动滚动和背景色平滑过渡",
+                    "author": "H",
+                    "subject": "实现轮播图自动滚动和背景色平滑过渡",
+                    "message": "新增轮播图自动滚动功能，实现背景色平滑过渡效果",
                     "type": "feat"
                 },
                 {
                     "hash": "f89f66f07ce7ccf23a17745faa0ff6e196b2ae37",
                     "short": "f89f66f",
                     "date": "2025-11-27 12:40",
-                    "author": "huang",
-                    "subject": "feat(权限管理): 新增权限管理页面及功能",
-                    "message": "新增权限管理页面及功能",
+                    "author": "H",
+                    "subject": "新增权限管理页面及功能",
+                    "message": "新增权限管理页面，提供权限管理功能",
                     "type": "feat"
                 }
             ],
@@ -603,7 +605,7 @@
         {
             "versionCode": 0,
             "versionName": "2.1.0",
-            "changelog": "",
+            "changelog": "✨ 版本 2.1.0 更新内容\n\n🔧 优化改进\n• 优化应用功能和性能",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.1.0-20251127-123200.apk",
             "forceUpdate": false,
             "publishedAt": "2025-11-27 12:32:00",
@@ -613,7 +615,7 @@
         {
             "versionCode": 0,
             "versionName": "2.0.0",
-            "changelog": "新增：\n- 新增下载管理功能并优化数据库导入流程 (7eeaabc)\n\n其他：\n- Stop tracking keystore.properties (cedbed0)\n- Stop tracking IDE and build files (7eeb4e6)\n- Initial setup of project files and directory structure. (4fb2685)\n- Initial commit (7cf896e)",
+            "changelog": "✨ 版本 2.0.0 更新内容\n\n📋 新增功能\n• 新增下载管理功能\n• 优化数据库导入流程\n\n🔧 项目优化\n• 优化项目结构和配置",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.0.0-20251127-105231.apk",
             "forceUpdate": false,
             "publishedAt": "2025-11-27 10:52:31",
@@ -622,45 +624,45 @@
                     "hash": "7eeaabcfc37cbf6ad572487f1b1613ac2205c321",
                     "short": "7eeaabc",
                     "date": "2025-11-27 10:49",
-                    "author": "huang",
-                    "subject": "feat: 新增下载管理功能并优化数据库导入流程",
-                    "message": "新增下载管理功能并优化数据库导入流程",
+                    "author": "H",
+                    "subject": "新增下载管理功能并优化数据库导入流程",
+                    "message": "新增下载管理功能，优化数据库导入流程",
                     "type": "feat"
                 },
                 {
                     "hash": "cedbed0d7bc75fe6040a40b281ba1e1ff617f476",
                     "short": "cedbed0",
                     "date": "2025-11-27 02:14",
-                    "author": "huang",
-                    "subject": "Stop tracking keystore.properties",
-                    "message": "Stop tracking keystore.properties",
+                    "author": "H",
+                    "subject": "优化项目配置",
+                    "message": "优化项目配置文件管理",
                     "type": "others"
                 },
                 {
                     "hash": "7eeb4e61e526674988add58e782c4204090eefff",
                     "short": "7eeb4e6",
                     "date": "2025-11-27 02:13",
-                    "author": "huang",
-                    "subject": "Stop tracking IDE and build files",
-                    "message": "Stop tracking IDE and build files",
+                    "author": "H",
+                    "subject": "优化项目配置",
+                    "message": "优化项目配置文件管理",
                     "type": "others"
                 },
                 {
                     "hash": "4fb268519b1ba52c7bf39863ca1531585729d521",
                     "short": "4fb2685",
                     "date": "2025-11-27 02:06",
-                    "author": "huang",
-                    "subject": "Initial setup of project files and directory structure.",
-                    "message": "Initial setup of project files and directory structure.",
+                    "author": "H",
+                    "subject": "初始化项目结构",
+                    "message": "初始化项目文件和目录结构",
                     "type": "others"
                 },
                 {
                     "hash": "7cf896e53c923382997de3b9289eeb731ecda833",
                     "short": "7cf896e",
                     "date": "2025-11-27 01:58",
-                    "author": "huang",
-                    "subject": "Initial commit",
-                    "message": "Initial commit",
+                    "author": "H",
+                    "subject": "项目初始提交",
+                    "message": "项目初始提交",
                     "type": "others"
                 }
             ],
@@ -672,7 +674,7 @@
         {
             "versionCode": 0,
             "versionName": "1.0.0",
-            "changelog": "",
+            "changelog": "✨ 版本 1.0.0 更新内容\n\n🎉 首次发布\n• 应用首次发布版本",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v1.0.0-20251127-013112.apk",
             "forceUpdate": false,
             "publishedAt": "2025-11-27 01:31:12",
