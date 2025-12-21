@@ -1,7 +1,7 @@
 {
-    "versionCode": 26,
-    "versionName": "2.4.4.0",
-    "changelog": "feat: 添加错题反馈功能并优化多项UI和功能\n\nrefactor(数据库): 使用AssetFileDescriptor获取准确文件大小避免压缩问题\nfeat(历史记录): 添加空状态提示并优化排序逻辑\nstyle(院校列表): 优化卡片样式和点击反馈\nfix(视频播放): 修复MediaController内存泄漏问题\nperf(搜索): 使用协程优化搜索性能并添加局部更新\nfeat(随机答题): 添加AI模型配置链接和API Key检查\nfix(错题本): 优化错题反馈UI和邮件发送逻辑",
-    "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.4.4.0-20251221-211330.apk",
+    "versionCode": 27,
+    "versionName": "2.4.4.1",
+    "changelog": "feat: 添加文件日志系统并增强错误处理\n\n- 新增FileLogger和AppLog实现日志记录到文件功能\n- 在App类中添加全局异常捕获和日志初始化逻辑\n- 为所有Activity添加try-catch块捕获初始化错误\n- 在设置页面添加日志分享功能\n- 降低minSdk至26以支持更多设备\n- 添加Android 11+包可见性配置\n- 优化权限申请后的日志系统初始化流程\n- 更新版本号至2.4.4.1(27)",
+    "downloadUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/updates/question-v2.4.4.1-20251222-023449.apk",
     "forceUpdate": true
 }
