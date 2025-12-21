@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "updated": "2025-12-21 21:14:51",
+    "updated": "2025-12-21 21:15:22",
     "items": [
         {
             "versionCode": 26,
@@ -8,7 +8,7 @@
             "changelog": "feat: 添加错题反馈功能并优化多项UI和功能\n\nrefactor(数据库): 使用AssetFileDescriptor获取准确文件大小避免压缩问题\nfeat(历史记录): 添加空状态提示并优化排序逻辑\nstyle(院校列表): 优化卡片样式和点击反馈\nfix(视频播放): 修复MediaController内存泄漏问题\nfeat(开发者工具): 添加开发者选项检测和临时启用功能\nperf(搜索): 使用协程优化搜索性能并添加局部更新\nfeat(随机答题): 添加AI模型配置链接和API Key检查\nfix(错题本): 优化错题反馈UI和邮件发送逻辑",
             "downloadUrl": "https://raw.githubusercontent.com/huangyjie/QuestionUpdates/main/updates/question-v2.4.4.0-20251221-211330.apk",
             "forceUpdate": true,
-            "publishedAt": "2025-12-21 21:14:51"
+            "publishedAt": "2025-12-21 21:15:22"
         },
         {
             "versionCode": 25,
