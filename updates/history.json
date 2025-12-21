@@ -1,7 +1,15 @@
 {
     "version": 1,
-    "updated": "2025-12-22 02:53:38",
+    "updated": "2025-12-22 05:11:58",
     "items": [
+        {
+            "versionCode": 28,
+            "versionName": "2.4.4.2",
+            "changelog": "优化权限申请和首页的弹窗重叠问题",
+            "downloadUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/updates/question-v2.4.4.2-20251222-051127.apk",
+            "forceUpdate": true,
+            "publishedAt": "2025-12-22 05:11:58"
+        },
         {
             "versionCode": 27,
             "versionName": "2.4.4.1",
