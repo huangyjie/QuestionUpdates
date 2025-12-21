@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "updated": "2025-12-22 02:45:30",
+    "updated": "2025-12-22 02:53:38",
     "items": [
         {
             "versionCode": 27,
@@ -8,7 +8,7 @@
             "changelog": "feat: 添加文件日志系统并增强错误处理\n\n- 新增FileLogger和AppLog实现日志记录到文件功能\n- 在App类中添加全局异常捕获和日志初始化逻辑\n- 为所有Activity添加try-catch块捕获初始化错误\n- 在设置页面添加日志分享功能\n- 降低minSdk至26以支持更多设备\n- 添加Android 11+包可见性配置\n- 优化权限申请后的日志系统初始化流程\n- 更新版本号至2.4.4.1(27)",
             "downloadUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/updates/question-v2.4.4.1-20251222-023449.apk",
             "forceUpdate": true,
-            "publishedAt": "2025-12-22 02:45:30"
+            "publishedAt": "2025-12-22 02:53:38"
         },
         {
             "versionCode": 26,
