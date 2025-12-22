@@ -1,7 +1,7 @@
 {
-    "versionCode": 28,
-    "versionName": "2.4.4.2",
-    "changelog": "优化权限申请和首页的弹窗重叠问题",
-    "downloadUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/updates/question-v2.4.4.2-20251222-054320.apk",
+    "versionCode": 29,
+    "versionName": "2.4.4.3",
+    "changelog": "feat: 新增桌面小组件和快捷方式功能\n\n新增刷题统计桌面小组件，支持一键添加到桌面显示刷题数和错题数\n添加应用快捷方式，支持长按图标快速启动答题功能和随机刷题\n新增联网搜索功能，支持在应用内预览百度/必应搜索结果\n优化通知图标和自动测试默认跳过逻辑\n完善数据库操作和错题本功能，增加详细注释\n重构返回键处理逻辑，统一使用OnBackPressedDispatcher\n更新版本号至2.4.4.3，版本码提升至29",
+    "downloadUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/updates/question-v2.4.4.3-20251222-200143.apk",
     "forceUpdate": true
 }
