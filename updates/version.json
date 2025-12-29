@@ -1,7 +1,7 @@
 {
-    "versionCode": 30,
-    "versionName": "2.4.4.4",
-    "changelog": "feat(错题本/收藏夹): 添加开始复习功能并优化数据管理\n\n- 在错题本和收藏夹页面添加\"开始复习\"按钮，支持直接复习题目\n- 实现题目数据转换逻辑，支持单选和多选题的答案解析\n- 在数据管理页面新增清空刷题记录和日志文件功能\n- 优化顺序刷题设置页面的UI和交互体验\n- 更新版本号至2.4.4.1，版本代码增至30",
-    "downloadUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/updates/question-v2.4.4.4-20251223-152245.apk",
-    "forceUpdate": true
+    "versionCode": 31,
+    "versionName": "2.4.4.4.1",
+    "changelog": "更新题库\n增加万维第一次第二次调考\n增加准易20年9至11月调考题目",
+    "downloadUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/updates/question-v2.4.4.4.1-20251230-020056.apk",
+    "forceUpdate": false
 }
