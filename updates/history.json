@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "updated": "2025-12-30 02:01:02",
+    "updated": "2025-12-30 02:57:59",
     "items": [
         {
             "versionCode": 31,
@@ -8,7 +8,7 @@
             "changelog": "更新题库\n增加万维第一次第二次调考\n增加准易205年9至11月调考题目",
             "downloadUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/updates/question-v2.4.4.4.1-20251230-020056.apk",
             "forceUpdate": false,
-            "publishedAt": "2025-12-30 02:01:02"
+            "publishedAt": "2025-12-30 02:57:59"
         },
         {
             "versionCode": 30,
