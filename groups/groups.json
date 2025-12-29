@@ -34,27 +34,27 @@
             "description": "湖北省技能高考交流群"
         },
         {
-            "id": "group_20251130022211",
-            "name": "湖北省技能高考计算机交流",
+            "id": "group_20251230021347",
+            "name": "卓昇技考",
             "platform": "QQ",
-            "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/groups/group_20251130022211.jpg",
-            "inviteUrl": "点击链接加入群聊【湖北技能高考计算机交流】：https://qm.qq.com/q/EA9tPLoxBQ",
+            "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/groups/group_20251230021347.jpg",
+            "inviteUrl": "点击链接加入群聊【卓昇技考】：https://qm.qq.com/q/sDgwZ7EOaW",
             "priority": 2,
             "schemeUrl": "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=718803277&card_type=group&source=qzone",
             "qqNumber": "718803277",
             "description": "湖北省技能高考交流群"
         },
         {
-            "id": "group_20251218172112",
+            "id": "group_20251230021521",
             "name": "问题反馈群",
             "platform": "QQ",
-            "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/groups/group_20251218172112.jpg",
-            "inviteUrl": "点击链接加入群聊【应知题库问题反馈群】：https://qm.qq.com/q/wpMFAeUNaM",
+            "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/groups/group_20251230021521.jpg",
+            "inviteUrl": "点击链接加入群聊【应知题库问题反馈群】：https://qm.qq.com/q/WXc4fvP6Me",
             "priority": 1,
             "schemeUrl": "mqqapi://card/show_pslcard?src_type=internal&version=1&uin=1073780877&card_type=group&source=qzone",
             "qqNumber": "1073780877",
-            "description": "问题反馈群，有问题进群反馈"
+            "description": "问题反馈群"
         }
     ],
-    "updated": "2025-12-18"
+    "updated": "2025-12-30"
 }
