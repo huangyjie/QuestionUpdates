@@ -62,7 +62,35 @@
             "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_20251130023045.png",
             "linkUrl": "https://www.hbctc.edu.cn/index.htm",
             "priority": 9
+        },
+        {
+            "id": "banner_20251230022900",
+            "title": "tgc",
+            "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_20251230022900.png",
+            "linkUrl": "https://www.tgc.edu.cn/",
+            "priority": 10
+        },
+        {
+            "id": "banner_20251230023133",
+            "title": "jzvt",
+            "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_20251230023133.png",
+            "linkUrl": "https://www.jzvt.edu.cn/index.htm",
+            "priority": 11
+        },
+        {
+            "id": "banner_20251230023322",
+            "title": "szvtc",
+            "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_20251230023322.png",
+            "linkUrl": "https://www.szvtc.cn/",
+            "priority": 12
+        },
+        {
+            "id": "banner_20251230023411",
+            "title": "ezu",
+            "imageUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/banners/banner_20251230023411.png",
+            "linkUrl": "https://www.ezu.edu.cn/main.htm",
+            "priority": 13
         }
     ],
-    "updated": "2025-12-19"
+    "updated": "2025-12-30"
 }
