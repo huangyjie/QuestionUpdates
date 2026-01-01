@@ -1,15 +1,5 @@
 [
     {
-        "id": "notification_1766475128",
-        "title": "问题反馈群QQ:群",
-        "content": "1073780877",
-        "type": "info",
-        "enabled": true,
-        "priority": 3,
-        "startTime": "2025-12-23 15:32:08",
-        "endTime": "2026-01-02 15:32:08"
-    },
-    {
         "id": "notification_1767031800",
         "title": "题库更新",
         "content": "需要更新题库的同学卸载旧版本在群里面下载安装即可",
@@ -18,5 +8,15 @@
         "priority": 3,
         "startTime": "2025-12-30 02:10:00",
         "endTime": "2026-01-09 02:10:00"
+    },
+    {
+        "id": "notification_1766475128",
+        "title": "问题反馈群QQ:群",
+        "content": "1073780877",
+        "type": "info",
+        "enabled": true,
+        "priority": 3,
+        "startTime": "2025-12-23 15:32:08",
+        "endTime": "2026-01-02 15:32:08"
     }
 ]
