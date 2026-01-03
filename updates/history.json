@@ -1,7 +1,15 @@
 {
     "version": 1,
-    "updated": "2025-12-30 02:57:59",
+    "updated": "2026-01-03 20:19:19",
     "items": [
+        {
+            "versionCode": 32,
+            "versionName": "2.4.4.4.2",
+            "changelog": "优化题库中大量题目格式不对问题",
+            "downloadUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/updates/question-v2.4.4.4.2-20260103-201902.apk",
+            "forceUpdate": true,
+            "publishedAt": "2026-01-03 20:19:19"
+        },
         {
             "versionCode": 31,
             "versionName": "2.4.4.4.1",
