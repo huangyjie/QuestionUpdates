@@ -1,7 +1,15 @@
 {
     "version": 1,
-    "updated": "2026-01-08 02:32:40",
+    "updated": "2026-01-09 03:00:28",
     "items": [
+        {
+            "versionCode": 37,
+            "versionName": "3.0.0",
+            "changelog": "全部数据上云",
+            "downloadUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/updates/question-v3.0.0-20260108-212136.apk",
+            "forceUpdate": true,
+            "publishedAt": "2026-01-09 03:00:28"
+        },
         {
             "versionCode": 36,
             "versionName": "2.6.1.0",

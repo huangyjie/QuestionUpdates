@@ -1,7 +1,7 @@
 {
-    "versionCode": 36,
-    "versionName": "2.6.1.0",
-    "changelog": "测试",
-    "downloadUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/updates/question-v2.6.1.0-20260108-023233.apk",
+    "versionCode": 37,
+    "versionName": "3.0.0",
+    "changelog": "全部数据上云",
+    "downloadUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/updates/question-v3.0.0-20260108-212136.apk",
     "forceUpdate": true
 }
