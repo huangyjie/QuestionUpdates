@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "updated": "2026-01-11 05:59:17",
+    "updated": "2026-01-11 05:59:34",
     "items": [
         {
             "versionCode": 39,
@@ -8,7 +8,7 @@
             "changelog": "修复已知问题",
             "downloadUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/updates/question-v3.1.1-20260111-055917.apk",
             "forceUpdate": true,
-            "publishedAt": "2026-01-11 05:59:17"
+            "publishedAt": "2026-01-11 05:59:34"
         },
         {
             "versionCode": 38,
