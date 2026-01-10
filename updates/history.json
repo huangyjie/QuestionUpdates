@@ -1,7 +1,23 @@
 {
     "version": 1,
-    "updated": "2026-01-09 03:00:28",
+    "updated": "2026-01-11 05:59:17",
     "items": [
+        {
+            "versionCode": 39,
+            "versionName": "3.1.1",
+            "changelog": "修复已知问题",
+            "downloadUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/updates/question-v3.1.1-20260111-055917.apk",
+            "forceUpdate": true,
+            "publishedAt": "2026-01-11 05:59:17"
+        },
+        {
+            "versionCode": 38,
+            "versionName": "3.1.0",
+            "changelog": "新增功能：\n- 排行榜页面展示用户排名和分数\n- 登录中心统一管理登录状态\n- 错题反馈功能\n- 自动读题和语速调节\n- 题库分类训练和挑战模式\n\n优化：\n- 移除本地SQLite数据库依赖\n- 重构答题页接入后端API\n- 更新ProGuard规则修复POI兼容性问题\n- 优化UI布局和交互体验\n\n修复：\n- 修复部分设备状态栏重叠问题\n- 修复网络请求偶发失败问题\n- 修复TTS语音播报相关问题",
+            "downloadUrl": "https://gitee.com/langzhikeji/QuestionUpdates/raw/main/updates/question-v3.1.0-20260109-030641.apk",
+            "forceUpdate": true,
+            "publishedAt": "2026-01-09 03:06:41"
+        },
         {
             "versionCode": 37,
             "versionName": "3.0.0",
